@@ -1,0 +1,160 @@
+<style type="text/css">
+   @page {
+      size: auto;  /* auto is the initial value */
+      margin: 0mm; /* this affects the margin in the printer settings */
+    }
+</style>
+<div class="cont">
+  <form>
+    <fieldset>
+       <legend>统计条件设置与结果打印</legend>             
+       <div class="conta">
+          <p>统计开始时间</p>
+          <p>统计截止时间</p>
+       </div>
+       <div class="contb">
+        <input class="Wdate xiaostime" id="starttime" value="<?php $time = strtotime('-1 month', time());echo date('Y-m-d',$time)?>" type="text" onClick="WdatePicker()" style="outline: 0;font-size: 14px;color: #000;float: left;margin-left: 10px;">
+        <input class="Wdate xiaostime" id="endtime" type="text" value="<?php echo date('Y-m-d',time())?>" onClick="WdatePicker()" style="outline: 0;font-size: 14px;color: #000;float: left;margin-left: 10px;">
+        <input type="hidden" id="ptype">
+        <button type="button" class="contc show_all_one">祭扫、安葬客户来访情况</button>
+        <button type="button" class="contc show_all_two">安葬情况统计表</button>
+        <button type="button" class="contc show_print">打印统计结果</button>
+       </div>
+    </fieldset>
+  </form>
+  <div class="conbiao">
+    <table class="table table-bordered">
+      <!--<caption>边框表格布局</caption>-->
+      <thead class="add_row_th">
+        
+      </thead>
+      <tbody class="add_row_tr">
+      </tbody>
+    </table>
+  </div>
+</div>
+<script src="__JS__/layer/layer.js"></script>
+<script language="javascript" type="text/javascript" src="__JS__/jQuery.print.js"></script>
+<script language="javascript" type="text/javascript" src="__JS__/My97DatePicker/WdatePicker.js"></script>
+<script type="text/javascript">
+$(".show_print").click(function(){
+    var ptype=$("#ptype").val();
+    var starttime=$("#starttime").val();
+    var endtime=$("#endtime").val();
+    if(ptype){
+    var html = layer.load(0, {
+      shade: [0.5] //0.1透明度的白色背景
+    });
+     $.ajax({
+          type        : 'post',
+          url         : '{:url('select_print')}',
+          dataType    : 'json',
+          data        : {
+              type : 36,
+              endtime:endtime,
+              starttime:starttime,
+              ptype:ptype,
+          },
+          success     : function(g){
+              layer.close(html);
+              //页面层
+              vhtml=layer.open({
+                type: 1,
+                title: '墓位祭扫安葬情况统计', //不显示标题
+                skin: 'layui-layer-rim', //加上边框
+                area: ['100%', '100%'], //宽高
+                content: g
+              });
+          }
+      });
+    }else{
+        layer.msg('无打印信息');
+    }
+  })
+  function show_print_zlist(){
+    $("#ele36").print();
+  }
+  $(".show_all_one").click(function(){
+    var starttime=$("#starttime").val();
+    var endtime=$("#endtime").val();
+    if(starttime && endtime){
+        var index = layer.load(1, {
+        shade: [0.1,'#fff'] //0.1透明度的白色背景
+      });
+      $(".trtr").remove();
+      $(".thth").remove();
+     
+      var html='';
+      var html1='';
+      $.ajax({
+            type        : 'post',
+            url         : '{:url('select_js_list')}',
+            dataType    : 'json',
+            data        : {
+                starttime : starttime,
+                endtime:endtime,
+            },
+            success     : function(g){
+              $("#ptype").val('2');
+              layer.close(index);
+              html1+='<tr class="thth">';
+                html1+='<th>祭扫安葬类型编号</th>  ';           
+                html1+='<th>祭扫安葬类型</th>';
+                html1+='<th>来访份数</th> ';          
+                html1+='<th>人数</th> ';                              
+                html1+='<th>微型车数量</th>';
+                html1+='<th>小型车数量</th>';
+                html1+='<th>中型车数量</th> ';                               
+                html1+='<th>大型车数量</th>';
+              html1+='</tr>';
+              $(".add_row_th").append(html1);
+              $(".add_row_tr").append(g);
+            }
+        });
+    }else{
+      layer.msg('请选择时间');
+    }
+  })
+  $(".show_all_two").click(function(){
+    var starttime=$("#starttime").val();
+    var endtime=$("#endtime").val();
+    if(starttime && endtime){
+      var index = layer.load(1, {
+        shade: [0.1,'#fff'] //0.1透明度的白色背景
+      });
+    $(".trtr").remove();
+    $(".thth").remove();
+    
+    var html='';
+    var html1='';
+    $.ajax({
+          type        : 'post',
+          url         : '{:url('select_js_list_zang')}',
+          dataType    : 'json',
+          data        : {
+              starttime : starttime,
+              endtime:endtime,
+          },
+          success     : function(g){
+            $("#ptype").val('3');
+            layer.close(index);
+            html1+='<tr class="thth">';
+              html1+='<th>安葬类型编号</th>  ';           
+              html1+='<th>安葬详情</th>';
+              html1+='<th>总数量</th> ';          
+              html1+='<th>安葬来访人数</th> ';                              
+              html1+='<th>微型车数量</th>';
+              html1+='<th>小型车数量</th>';
+              html1+='<th>中型车数量</th> ';                               
+              html1+='<th>大型车数量</th>';
+            html1+='</tr>';
+            $(".add_row_th").append(html1);
+            $(".add_row_tr").append(g);
+          }
+      });
+    }else{
+      layer.msg('请选择时间');
+    }
+    
+  })
+</script>

@@ -1,0 +1,73 @@
+<style type="text/css">
+  .widget{
+    border-radius: 5px;
+    padding: 15px 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+  .table-responsive{
+        min-height: .01%;
+    overflow-x: auto;
+  }
+  .table-bordered{
+    border: 1px solid #EBEBEB;
+  }
+  .table{
+   width: 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+  h3, h4, h5{
+        margin-top: 5px;
+    font-weight: 600;
+  }
+  .table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th{
+        border-top: 1px solid #e7eaec;
+    line-height: 1.42857;
+    padding: 8px;
+    vertical-align: middle;
+  }
+</style>
+<div class="col-lg-3">
+    <div class="widget style1">
+        <div class="table-responsive">
+            <table class="table table-bordered">
+                <thead>
+                    <tr class="success">
+                        <td colspan="2"><h5>系统信息</h5></td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td width="40%">系统版本</td>
+                        <td>1.1.0 beta(20180503)</td>
+                    </tr>
+                    <tr>
+                        <td width="40%">核心版本</td>
+                        <td>5.0.2</td>
+                    </tr>
+                    <tr>
+                        <td width="40%">程序版本</td>
+                        <td>v0.0.0.1</td>
+                    </tr>
+                    <tr>
+                        <td width="40%">服务器时间</td>
+                        <td><?php echo date('Y-m-d',time())?></td>
+                    </tr>
+                    <tr>
+                        <td width="40%">操作系统</td>
+                        <td>Server 2008</td>
+                    </tr>
+                    <tr>
+                        <td width="40%">服务器运行环境</td>
+                        <td>PHP</td>
+                    </tr>
+                    <tr>
+                        <td width="40%">PHP版本</td>
+                        <td>7.0.16</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

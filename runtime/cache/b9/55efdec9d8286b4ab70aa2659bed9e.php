@@ -1,0 +1,3 @@
+<?php
+//000000000000a:6:{i:60;a:4:{s:2:"id";i:60;s:3:"pid";i:59;s:4:"name";s:24:"墓位定购收费确认";s:11:"client_path";s:15:"Stration/muweis";}i:61;a:4:{s:2:"id";i:61;s:3:"pid";i:59;s:4:"name";s:24:"墓位定购发票统计";s:11:"client_path";s:16:"Stration/invoice";}i:62;a:4:{s:2:"id";i:62;s:3:"pid";i:59;s:4:"name";s:24:"墓位杂费单据管理";s:11:"client_path";s:12:"Stration/fee";}i:63;a:4:{s:2:"id";i:63;s:3:"pid";i:59;s:4:"name";s:18:"来访登记管理";s:11:"client_path";s:18:"Stration/visit_log";}i:64;a:4:{s:2:"id";i:64;s:3:"pid";i:59;s:4:"name";s:21:"销售员信息修改";s:11:"client_path";s:13:"Stration/user";}i:65;a:4:{s:2:"id";i:65;s:3:"pid";i:59;s:4:"name";s:24:"墓位销售锁定管理";s:11:"client_path";s:13:"Stration/lock";}}
+?>

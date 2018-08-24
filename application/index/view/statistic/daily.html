@@ -1,0 +1,111 @@
+<style type="text/css">
+   @page {
+      size: auto;  /* auto is the initial value */
+      margin: 0mm; /* this affects the margin in the printer settings */
+    }
+</style>
+<div class="cont">
+  <form>
+    <fieldset>
+       <legend>统计条件设置与结果打印</legend>             
+       <div class="conta">
+          <p>统计日期选择</p>
+        
+       </div>
+       <div class="contb">
+        <input class="Wdate xiaostime" id="starttime" type="text" value="<?php echo date('Y-m-d',time());?>" onClick="WdatePicker()" style="outline: 0;font-size: 14px;color: #000;float: left;margin-left: 10px;">
+        <input type="hidden" id="ptype" value="3">
+        <button type="button" class="contc show_all_daily">统计结果</button>
+        <button type="button" class="contc show_print">打印统计结果</button>
+       </div>
+    </fieldset>
+    
+  </form>
+  <div class="conbiao">
+    <table class="table table-bordered">
+      <!--<caption>边框表格布局</caption>-->
+      <thead>
+        <tr>
+          <th>序号</th>             
+          <th>接待员</th>
+          <th>接待首次份数</th>
+          <th>接待复访份数</th>             
+          <th>成交份数</th>
+          <th>预订金额（元）</th>
+          <th>补全款份数</th>              
+          <th>退墓数（座）</th>
+          <th>计算成交率（%）</th>
+          <th>实际成交率（%）</th>
+          <th>成交金额</th>
+        </tr>
+      </thead>
+      <tbody class="add_row">
+        
+      </tbody>
+    </table>
+  </div>
+</div>
+<script src="__JS__/layer/layer.js"></script>
+<script language="javascript" type="text/javascript" src="__JS__/jQuery.print.js"></script>
+<script language="javascript" type="text/javascript" src="__JS__/My97DatePicker/WdatePicker.js"></script>
+<script type="text/javascript">
+  $(".show_print").click(function(){
+    var ptype=$("#ptype").val();
+    if(ptype == '2'){
+      var starttime=$("#starttime").val();
+      var html = layer.load(0, {
+        shade: [0.5] //0.1透明度的白色背景
+      });
+       $.ajax({
+            type        : 'post',
+            url         : '{:url('select_print')}',
+            dataType    : 'json',
+            data        : {
+                type : 37,
+                starttime:starttime,
+            },
+            success     : function(g){
+                layer.close(html);
+                //页面层
+                vhtml=layer.open({
+                  type: 1,
+                  title: '客服代表日销售统计', //不显示标题
+                  skin: 'layui-layer-rim', //加上边框
+                  area: ['100%', '100%'], //宽高
+                  content: g
+                });
+            }
+        });
+    }else{
+      layer.msg('无打印信息');
+    }
+    
+  })
+  function show_print_zlist(){
+    $("#ele37").print();
+  }
+  $(".show_all_daily").click(function(){
+    var index = layer.load(1, {
+      shade: [0.1,'#fff'] //0.1透明度的白色背景
+    });
+    $(".trtr").remove();
+    var starttime=$("#starttime").val();
+    if(starttime!=''){
+      $.ajax({
+          type        : 'post',
+          url         : '{:url('show_all_daily')}',
+          dataType    : 'json',
+          data        : {
+              starttime:starttime,
+          },
+          success     : function(g){
+            layer.close(index);
+            $("#ptype").val('2');
+            $(".add_row").append(g);
+          }
+      });
+    }else{
+      layer.msg('请选择时间');
+    }
+  })
+</script>

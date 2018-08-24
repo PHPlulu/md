@@ -1,0 +1,1868 @@
+---------------------------------------------------------------
+[ 2018-08-19T14:52:22+08:00 ] 114.113.119.109 42.102.25.178 GET /index/statistic/qudao.html
+[ info ] www.fumijituan.com/index/statistic/qudao.html [运行时间：0.187500s][吞吐率：5.33req/s] [内存消耗：2,182.20kb] [文件加载：51]
+[ info ] [ LANG ] D:\phpstudy\PHPTutorial\WWW\md\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'statistic',
+    2 => 'qudao',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=108355972.4226525289363062000.1534577120716.8413; PHPSESSID=v97oog9gp70o9shp06sspgshb3; monitor_count=160',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://www.fumijituan.com/index/statistic/age.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.fumijituan.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'home',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Statistic->qudao[ D:\phpstudy\PHPTutorial\WWW\md\application\index\controller\Statistic.php ]
+[ info ] [ VIEW ] D:\phpstudy\PHPTutorial\WWW\md\public/../application/index\view\statistic\qudao.html [ array (
+  0 => 'path_info',
+  1 => 'top_meun',
+  2 => 'left_meun',
+  3 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=md;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth` [ RunTime:0.031250s ]
+[ sql ] [ SQL ] SELECT * FROM `auth` WHERE  `client_path` = 'Statistic/qudao' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `a`.`id`,`a`.`pid`,`a`.`name`,`a`.`client_path` FROM `auth` `a` RIGHT JOIN `otm` `b` ON `a`.`id`=`b`.`mk` WHERE  `a`.`is_menu` = 1  AND `a`.`pid` = 0  AND `b`.`ok` = 1  AND `b`.`type` = 1 ORDER BY `a`.`order_by_id`  desc,`a`.`id`  asc [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT * FROM `auth` WHERE  `client_path` = 'Statistic/qudao' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `a`.`id`,`a`.`pid`,`a`.`name`,`a`.`client_path` FROM `auth` `a` RIGHT JOIN `otm` `b` ON `a`.`id`=`b`.`mk` WHERE  `a`.`is_menu` = 1  AND `a`.`pid` = 57  AND `b`.`ok` = 1  AND `b`.`type` = 1 ORDER BY `a`.`order_by_id`  desc,`a`.`id`  asc [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `come_channel` [ RunTime:0.031250s ]
+[ sql ] [ SQL ] SELECT * FROM `come_channel` WHERE  `pid` = 0 [ RunTime:0.015625s ]
+---------------------------------------------------------------
+[ 2018-08-19T14:52:24+08:00 ] 114.113.119.109 42.102.25.178 GET /index/statistic/qudao.html
+[ info ] www.fumijituan.com/index/statistic/qudao.html [运行时间：0.195312s][吞吐率：5.12req/s] [内存消耗：2,043.59kb] [文件加载：49]
+[ info ] [ LANG ] D:\phpstudy\PHPTutorial\WWW\md\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'statistic',
+    2 => 'qudao',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=108355972.4226525289363062000.1534577120716.8413; PHPSESSID=v97oog9gp70o9shp06sspgshb3; monitor_count=161',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://www.fumijituan.com/index/statistic/qudao.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.fumijituan.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'home',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Statistic->qudao[ D:\phpstudy\PHPTutorial\WWW\md\application\index\controller\Statistic.php ]
+[ info ] [ VIEW ] D:\phpstudy\PHPTutorial\WWW\md\public/../application/index\view\statistic\qudao.html [ array (
+  0 => 'path_info',
+  1 => 'top_meun',
+  2 => 'left_meun',
+  3 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=md;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth` [ RunTime:0.033203s ]
+[ sql ] [ SQL ] SELECT * FROM `auth` WHERE  `client_path` = 'Statistic/qudao' LIMIT 1 [ RunTime:0.001953s ]
+[ sql ] [ SQL ] SELECT `a`.`id`,`a`.`pid`,`a`.`name`,`a`.`client_path` FROM `auth` `a` RIGHT JOIN `otm` `b` ON `a`.`id`=`b`.`mk` WHERE  `a`.`is_menu` = 1  AND `a`.`pid` = 0  AND `b`.`ok` = 1  AND `b`.`type` = 1 ORDER BY `a`.`order_by_id`  desc,`a`.`id`  asc [ RunTime:0.000977s ]
+[ sql ] [ SQL ] SELECT * FROM `auth` WHERE  `client_path` = 'Statistic/qudao' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `a`.`id`,`a`.`pid`,`a`.`name`,`a`.`client_path` FROM `auth` `a` RIGHT JOIN `otm` `b` ON `a`.`id`=`b`.`mk` WHERE  `a`.`is_menu` = 1  AND `a`.`pid` = 57  AND `b`.`ok` = 1  AND `b`.`type` = 1 ORDER BY `a`.`order_by_id`  desc,`a`.`id`  asc [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `come_channel` [ RunTime:0.046875s ]
+[ sql ] [ SQL ] SELECT * FROM `come_channel` WHERE  `pid` = 0 [ RunTime:0.015625s ]
+---------------------------------------------------------------
+[ 2018-08-19T14:52:26+08:00 ] 114.113.119.109 42.102.25.178 POST /index/statistic/show_qudao_all_time.html
+[ info ] www.fumijituan.com/index/statistic/show_qudao_all_time.html [运行时间：0.345703s][吞吐率：2.89req/s] [内存消耗：3,722.44kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpstudy\PHPTutorial\WWW\md\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'statistic',
+    2 => 'show_qudao_all_time',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=108355972.4226525289363062000.1534577120716.8413; PHPSESSID=v97oog9gp70o9shp06sspgshb3; monitor_count=162',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.fumijituan.com/index/statistic/qudao.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.fumijituan.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '59',
+  'connection' => 'close',
+  'host' => 'www.fumijituan.com',
+)
+[ info ] [ PARAM ] array (
+  'cem_id1' => '0',
+  'cem_id2' => '0',
+  'starttime' => '2018-07-19',
+  'endtime' => '2018-08-19',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'home',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Statistic->show_qudao_all_time[ D:\phpstudy\PHPTutorial\WWW\md\application\index\controller\Statistic.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015625s ] mysql:dbname=md;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth` [ RunTime:0.031250s ]
+[ sql ] [ SQL ] SELECT * FROM `auth` WHERE  `client_path` = 'Statistic/show_qudao_all_time' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `a`.`id`,`a`.`pid`,`a`.`name`,`a`.`client_path` FROM `auth` `a` RIGHT JOIN `otm` `b` ON `a`.`id`=`b`.`mk` WHERE  `a`.`is_menu` = 1  AND `a`.`pid` = 0  AND `b`.`ok` = 1  AND `b`.`type` = 1 ORDER BY `a`.`order_by_id`  desc,`a`.`id`  asc [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `auth` WHERE  `client_path` = 'Statistic/show_qudao_all_time' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `a`.`id`,`a`.`pid`,`a`.`name`,`a`.`client_path` FROM `auth` `a` RIGHT JOIN `otm` `b` ON `a`.`id`=`b`.`mk` WHERE  `a`.`is_menu` = 1  AND `a`.`pid` IS NULL  AND `b`.`ok` = 1  AND `b`.`type` = 1 ORDER BY `a`.`order_by_id`  desc,`a`.`id`  asc [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `come_channel` [ RunTime:0.031250s ]
+[ sql ] [ SQL ] SELECT * FROM `come_channel` WHERE  `pid` = 0  AND `ppid` = 0 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `visit_log` [ RunTime:0.046875s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `visit_log` WHERE  (  channel_t1=0 and channel_t2=0 and channel_t3=1 )  AND `come_date` BETWEEN 1531929600 AND 1534608000 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `visit_log` WHERE  (  channel_t1=0 and channel_t2=0 and channel_t3=1 and transaction_status=1  )  AND `come_date` BETWEEN 1531929600 AND 1534608000 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `contacts_id` FROM `visit_log` WHERE  (  channel_t1=0 and channel_t2=0 and channel_t3=1 )  AND `come_date` BETWEEN 1531929600 AND 1534608000 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cem_info` [ RunTime:0.031250s ]
+[ sql ] [ SQL ] SELECT sum(money) FROM `cem_info` WHERE  `contacts_id` IN (0) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `visit_log` WHERE  (  channel_t1=0 and channel_t2=0 and channel_t3=14 )  AND `come_date` BETWEEN 1531929600 AND 1534608000 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `visit_log` WHERE  (  channel_t1=0 and channel_t2=0 and channel_t3=14 and transaction_status=1  )  AND `come_date` BETWEEN 1531929600 AND 1534608000 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `contacts_id` FROM `visit_log` WHERE  (  channel_t1=0 and channel_t2=0 and channel_t3=14 )  AND `come_date` BETWEEN 1531929600 AND 1534608000 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT sum(money) FROM `cem_info` WHERE  `contacts_id` IN (0) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `visit_log` WHERE  (  channel_t1=0 and channel_t2=0 and channel_t3=16 )  AND `come_date` BETWEEN 1531929600 AND 1534608000 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `visit_log` WHERE  (  channel_t1=0 and channel_t2=0 and channel_t3=16 and transaction_status=1  )  AND `come_date` BETWEEN 1531929600 AND 1534608000 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `contacts_id` FROM `visit_log` WHERE  (  channel_t1=0 and channel_t2=0 and channel_t3=16 )  AND `come_date` BETWEEN 1531929600 AND 1534608000 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT sum(money) FROM `cem_info` WHERE  `contacts_id` IN (0) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `visit_log` WHERE  (  channel_t1=0 and channel_t2=0 and channel_t3=17 )  AND `come_date` BETWEEN 1531929600 AND 1534608000 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `visit_log` WHERE  (  channel_t1=0 and channel_t2=0 and channel_t3=17 and transaction_status=1  )  AND `come_date` BETWEEN 1531929600 AND 1534608000 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `contacts_id` FROM `visit_log` WHERE  (  channel_t1=0 and channel_t2=0 and channel_t3=17 )  AND `come_date` BETWEEN 1531929600 AND 1534608000 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT sum(money) FROM `cem_info` WHERE  `contacts_id` IN (0) [ RunTime:0.000000s ]
+[ error ] [8]未定义变量: buy[D:\phpstudy\PHPTutorial\WWW\md\application\index\model\CemInfo.php:9126]
+[ error ] [2]Invalid argument supplied for foreach()[D:\phpstudy\PHPTutorial\WWW\md\application\index\model\CemInfo.php:9126]
+[ error ] [8]未定义变量: buy[D:\phpstudy\PHPTutorial\WWW\md\application\index\model\CemInfo.php:9126]
+[ error ] [2]Invalid argument supplied for foreach()[D:\phpstudy\PHPTutorial\WWW\md\application\index\model\CemInfo.php:9126]
+[ error ] [8]未定义变量: buy[D:\phpstudy\PHPTutorial\WWW\md\application\index\model\CemInfo.php:9126]
+[ error ] [2]Invalid argument supplied for foreach()[D:\phpstudy\PHPTutorial\WWW\md\application\index\model\CemInfo.php:9126]
+[ error ] [8]未定义变量: buy[D:\phpstudy\PHPTutorial\WWW\md\application\index\model\CemInfo.php:9126]
+[ error ] [2]Invalid argument supplied for foreach()[D:\phpstudy\PHPTutorial\WWW\md\application\index\model\CemInfo.php:9126]
+---------------------------------------------------------------
+[ 2018-08-19T14:52:29+08:00 ] 114.113.119.109 42.102.25.178 POST /index/statistic/show_qudao_all_time.html
+[ info ] www.fumijituan.com/index/statistic/show_qudao_all_time.html [运行时间：0.352539s][吞吐率：2.84req/s] [内存消耗：3,722.44kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpstudy\PHPTutorial\WWW\md\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'statistic',
+    2 => 'show_qudao_all_time',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=108355972.4226525289363062000.1534577120716.8413; PHPSESSID=v97oog9gp70o9shp06sspgshb3; monitor_count=162',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.fumijituan.com/index/statistic/qudao.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.fumijituan.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '59',
+  'connection' => 'close',
+  'host' => 'www.fumijituan.com',
+)
+[ info ] [ PARAM ] array (
+  'cem_id1' => '0',
+  'cem_id2' => '0',
+  'starttime' => '2018-07-19',
+  'endtime' => '2018-08-19',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'home',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Statistic->show_qudao_all_time[ D:\phpstudy\PHPTutorial\WWW\md\application\index\controller\Statistic.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015625s ] mysql:dbname=md;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth` [ RunTime:0.035156s ]
+[ sql ] [ SQL ] SELECT * FROM `auth` WHERE  `client_path` = 'Statistic/show_qudao_all_time' LIMIT 1 [ RunTime:0.000977s ]
+[ sql ] [ SQL ] SELECT `a`.`id`,`a`.`pid`,`a`.`name`,`a`.`client_path` FROM `auth` `a` RIGHT JOIN `otm` `b` ON `a`.`id`=`b`.`mk` WHERE  `a`.`is_menu` = 1  AND `a`.`pid` = 0  AND `b`.`ok` = 1  AND `b`.`type` = 1 ORDER BY `a`.`order_by_id`  desc,`a`.`id`  asc [ RunTime:0.000977s ]
+[ sql ] [ SQL ] SELECT * FROM `auth` WHERE  `client_path` = 'Statistic/show_qudao_all_time' LIMIT 1 [ RunTime:0.000976s ]
+[ sql ] [ SQL ] SELECT `a`.`id`,`a`.`pid`,`a`.`name`,`a`.`client_path` FROM `auth` `a` RIGHT JOIN `otm` `b` ON `a`.`id`=`b`.`mk` WHERE  `a`.`is_menu` = 1  AND `a`.`pid` IS NULL  AND `b`.`ok` = 1  AND `b`.`type` = 1 ORDER BY `a`.`order_by_id`  desc,`a`.`id`  asc [ RunTime:0.000977s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `come_channel` [ RunTime:0.034180s ]
+[ sql ] [ SQL ] SELECT * FROM `come_channel` WHERE  `pid` = 0  AND `ppid` = 0 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `visit_log` [ RunTime:0.062500s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `visit_log` WHERE  (  channel_t1=0 and channel_t2=0 and channel_t3=1 )  AND `come_date` BETWEEN 1531929600 AND 1534608000 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `visit_log` WHERE  (  channel_t1=0 and channel_t2=0 and channel_t3=1 and transaction_status=1  )  AND `come_date` BETWEEN 1531929600 AND 1534608000 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `contacts_id` FROM `visit_log` WHERE  (  channel_t1=0 and channel_t2=0 and channel_t3=1 )  AND `come_date` BETWEEN 1531929600 AND 1534608000 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cem_info` [ RunTime:0.031250s ]
+[ sql ] [ SQL ] SELECT sum(money) FROM `cem_info` WHERE  `contacts_id` IN (0) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `visit_log` WHERE  (  channel_t1=0 and channel_t2=0 and channel_t3=14 )  AND `come_date` BETWEEN 1531929600 AND 1534608000 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `visit_log` WHERE  (  channel_t1=0 and channel_t2=0 and channel_t3=14 and transaction_status=1  )  AND `come_date` BETWEEN 1531929600 AND 1534608000 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `contacts_id` FROM `visit_log` WHERE  (  channel_t1=0 and channel_t2=0 and channel_t3=14 )  AND `come_date` BETWEEN 1531929600 AND 1534608000 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT sum(money) FROM `cem_info` WHERE  `contacts_id` IN (0) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `visit_log` WHERE  (  channel_t1=0 and channel_t2=0 and channel_t3=16 )  AND `come_date` BETWEEN 1531929600 AND 1534608000 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `visit_log` WHERE  (  channel_t1=0 and channel_t2=0 and channel_t3=16 and transaction_status=1  )  AND `come_date` BETWEEN 1531929600 AND 1534608000 LIMIT 1 [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT `contacts_id` FROM `visit_log` WHERE  (  channel_t1=0 and channel_t2=0 and channel_t3=16 )  AND `come_date` BETWEEN 1531929600 AND 1534608000 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT sum(money) FROM `cem_info` WHERE  `contacts_id` IN (0) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `visit_log` WHERE  (  channel_t1=0 and channel_t2=0 and channel_t3=17 )  AND `come_date` BETWEEN 1531929600 AND 1534608000 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `visit_log` WHERE  (  channel_t1=0 and channel_t2=0 and channel_t3=17 and transaction_status=1  )  AND `come_date` BETWEEN 1531929600 AND 1534608000 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `contacts_id` FROM `visit_log` WHERE  (  channel_t1=0 and channel_t2=0 and channel_t3=17 )  AND `come_date` BETWEEN 1531929600 AND 1534608000 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT sum(money) FROM `cem_info` WHERE  `contacts_id` IN (0) [ RunTime:0.000000s ]
+[ error ] [8]未定义变量: buy[D:\phpstudy\PHPTutorial\WWW\md\application\index\model\CemInfo.php:9126]
+[ error ] [2]Invalid argument supplied for foreach()[D:\phpstudy\PHPTutorial\WWW\md\application\index\model\CemInfo.php:9126]
+[ error ] [8]未定义变量: buy[D:\phpstudy\PHPTutorial\WWW\md\application\index\model\CemInfo.php:9126]
+[ error ] [2]Invalid argument supplied for foreach()[D:\phpstudy\PHPTutorial\WWW\md\application\index\model\CemInfo.php:9126]
+[ error ] [8]未定义变量: buy[D:\phpstudy\PHPTutorial\WWW\md\application\index\model\CemInfo.php:9126]
+[ error ] [2]Invalid argument supplied for foreach()[D:\phpstudy\PHPTutorial\WWW\md\application\index\model\CemInfo.php:9126]
+[ error ] [8]未定义变量: buy[D:\phpstudy\PHPTutorial\WWW\md\application\index\model\CemInfo.php:9126]
+[ error ] [2]Invalid argument supplied for foreach()[D:\phpstudy\PHPTutorial\WWW\md\application\index\model\CemInfo.php:9126]
+---------------------------------------------------------------
+[ 2018-08-19T14:52:30+08:00 ] 114.113.119.109 42.102.25.178 POST /index/statistic/show_qudao_all_time.html
+[ info ] www.fumijituan.com/index/statistic/show_qudao_all_time.html [运行时间：0.312500s][吞吐率：3.20req/s] [内存消耗：3,722.44kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpstudy\PHPTutorial\WWW\md\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'statistic',
+    2 => 'show_qudao_all_time',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=108355972.4226525289363062000.1534577120716.8413; PHPSESSID=v97oog9gp70o9shp06sspgshb3; monitor_count=162',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.fumijituan.com/index/statistic/qudao.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.fumijituan.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '59',
+  'connection' => 'close',
+  'host' => 'www.fumijituan.com',
+)
+[ info ] [ PARAM ] array (
+  'cem_id1' => '0',
+  'cem_id2' => '0',
+  'starttime' => '2018-07-19',
+  'endtime' => '2018-08-19',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'home',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Statistic->show_qudao_all_time[ D:\phpstudy\PHPTutorial\WWW\md\application\index\controller\Statistic.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015625s ] mysql:dbname=md;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth` [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT * FROM `auth` WHERE  `client_path` = 'Statistic/show_qudao_all_time' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `a`.`id`,`a`.`pid`,`a`.`name`,`a`.`client_path` FROM `auth` `a` RIGHT JOIN `otm` `b` ON `a`.`id`=`b`.`mk` WHERE  `a`.`is_menu` = 1  AND `a`.`pid` = 0  AND `b`.`ok` = 1  AND `b`.`type` = 1 ORDER BY `a`.`order_by_id`  desc,`a`.`id`  asc [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `auth` WHERE  `client_path` = 'Statistic/show_qudao_all_time' LIMIT 1 [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT `a`.`id`,`a`.`pid`,`a`.`name`,`a`.`client_path` FROM `auth` `a` RIGHT JOIN `otm` `b` ON `a`.`id`=`b`.`mk` WHERE  `a`.`is_menu` = 1  AND `a`.`pid` IS NULL  AND `b`.`ok` = 1  AND `b`.`type` = 1 ORDER BY `a`.`order_by_id`  desc,`a`.`id`  asc [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `come_channel` [ RunTime:0.031250s ]
+[ sql ] [ SQL ] SELECT * FROM `come_channel` WHERE  `pid` = 0  AND `ppid` = 0 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `visit_log` [ RunTime:0.046875s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `visit_log` WHERE  (  channel_t1=0 and channel_t2=0 and channel_t3=1 )  AND `come_date` BETWEEN 1531929600 AND 1534608000 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `visit_log` WHERE  (  channel_t1=0 and channel_t2=0 and channel_t3=1 and transaction_status=1  )  AND `come_date` BETWEEN 1531929600 AND 1534608000 LIMIT 1 [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT `contacts_id` FROM `visit_log` WHERE  (  channel_t1=0 and channel_t2=0 and channel_t3=1 )  AND `come_date` BETWEEN 1531929600 AND 1534608000 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cem_info` [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT sum(money) FROM `cem_info` WHERE  `contacts_id` IN (0) [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `visit_log` WHERE  (  channel_t1=0 and channel_t2=0 and channel_t3=14 )  AND `come_date` BETWEEN 1531929600 AND 1534608000 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `visit_log` WHERE  (  channel_t1=0 and channel_t2=0 and channel_t3=14 and transaction_status=1  )  AND `come_date` BETWEEN 1531929600 AND 1534608000 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `contacts_id` FROM `visit_log` WHERE  (  channel_t1=0 and channel_t2=0 and channel_t3=14 )  AND `come_date` BETWEEN 1531929600 AND 1534608000 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT sum(money) FROM `cem_info` WHERE  `contacts_id` IN (0) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `visit_log` WHERE  (  channel_t1=0 and channel_t2=0 and channel_t3=16 )  AND `come_date` BETWEEN 1531929600 AND 1534608000 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `visit_log` WHERE  (  channel_t1=0 and channel_t2=0 and channel_t3=16 and transaction_status=1  )  AND `come_date` BETWEEN 1531929600 AND 1534608000 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `contacts_id` FROM `visit_log` WHERE  (  channel_t1=0 and channel_t2=0 and channel_t3=16 )  AND `come_date` BETWEEN 1531929600 AND 1534608000 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT sum(money) FROM `cem_info` WHERE  `contacts_id` IN (0) [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `visit_log` WHERE  (  channel_t1=0 and channel_t2=0 and channel_t3=17 )  AND `come_date` BETWEEN 1531929600 AND 1534608000 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `visit_log` WHERE  (  channel_t1=0 and channel_t2=0 and channel_t3=17 and transaction_status=1  )  AND `come_date` BETWEEN 1531929600 AND 1534608000 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `contacts_id` FROM `visit_log` WHERE  (  channel_t1=0 and channel_t2=0 and channel_t3=17 )  AND `come_date` BETWEEN 1531929600 AND 1534608000 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT sum(money) FROM `cem_info` WHERE  `contacts_id` IN (0) [ RunTime:0.000000s ]
+[ error ] [8]未定义变量: buy[D:\phpstudy\PHPTutorial\WWW\md\application\index\model\CemInfo.php:9126]
+[ error ] [2]Invalid argument supplied for foreach()[D:\phpstudy\PHPTutorial\WWW\md\application\index\model\CemInfo.php:9126]
+[ error ] [8]未定义变量: buy[D:\phpstudy\PHPTutorial\WWW\md\application\index\model\CemInfo.php:9126]
+[ error ] [2]Invalid argument supplied for foreach()[D:\phpstudy\PHPTutorial\WWW\md\application\index\model\CemInfo.php:9126]
+[ error ] [8]未定义变量: buy[D:\phpstudy\PHPTutorial\WWW\md\application\index\model\CemInfo.php:9126]
+[ error ] [2]Invalid argument supplied for foreach()[D:\phpstudy\PHPTutorial\WWW\md\application\index\model\CemInfo.php:9126]
+[ error ] [8]未定义变量: buy[D:\phpstudy\PHPTutorial\WWW\md\application\index\model\CemInfo.php:9126]
+[ error ] [2]Invalid argument supplied for foreach()[D:\phpstudy\PHPTutorial\WWW\md\application\index\model\CemInfo.php:9126]
+---------------------------------------------------------------
+[ 2018-08-19T14:52:30+08:00 ] 114.113.119.109 42.102.25.178 POST /index/statistic/show_qudao_all_time.html
+[ info ] www.fumijituan.com/index/statistic/show_qudao_all_time.html [运行时间：0.301758s][吞吐率：3.31req/s] [内存消耗：3,722.44kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpstudy\PHPTutorial\WWW\md\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'statistic',
+    2 => 'show_qudao_all_time',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=108355972.4226525289363062000.1534577120716.8413; PHPSESSID=v97oog9gp70o9shp06sspgshb3; monitor_count=162',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.fumijituan.com/index/statistic/qudao.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.fumijituan.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '59',
+  'connection' => 'close',
+  'host' => 'www.fumijituan.com',
+)
+[ info ] [ PARAM ] array (
+  'cem_id1' => '0',
+  'cem_id2' => '0',
+  'starttime' => '2018-07-19',
+  'endtime' => '2018-08-19',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'home',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Statistic->show_qudao_all_time[ D:\phpstudy\PHPTutorial\WWW\md\application\index\controller\Statistic.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=md;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth` [ RunTime:0.031250s ]
+[ sql ] [ SQL ] SELECT * FROM `auth` WHERE  `client_path` = 'Statistic/show_qudao_all_time' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `a`.`id`,`a`.`pid`,`a`.`name`,`a`.`client_path` FROM `auth` `a` RIGHT JOIN `otm` `b` ON `a`.`id`=`b`.`mk` WHERE  `a`.`is_menu` = 1  AND `a`.`pid` = 0  AND `b`.`ok` = 1  AND `b`.`type` = 1 ORDER BY `a`.`order_by_id`  desc,`a`.`id`  asc [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `auth` WHERE  `client_path` = 'Statistic/show_qudao_all_time' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `a`.`id`,`a`.`pid`,`a`.`name`,`a`.`client_path` FROM `auth` `a` RIGHT JOIN `otm` `b` ON `a`.`id`=`b`.`mk` WHERE  `a`.`is_menu` = 1  AND `a`.`pid` IS NULL  AND `b`.`ok` = 1  AND `b`.`type` = 1 ORDER BY `a`.`order_by_id`  desc,`a`.`id`  asc [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `come_channel` [ RunTime:0.031250s ]
+[ sql ] [ SQL ] SELECT * FROM `come_channel` WHERE  `pid` = 0  AND `ppid` = 0 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `visit_log` [ RunTime:0.031250s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `visit_log` WHERE  (  channel_t1=0 and channel_t2=0 and channel_t3=1 )  AND `come_date` BETWEEN 1531929600 AND 1534608000 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `visit_log` WHERE  (  channel_t1=0 and channel_t2=0 and channel_t3=1 and transaction_status=1  )  AND `come_date` BETWEEN 1531929600 AND 1534608000 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `contacts_id` FROM `visit_log` WHERE  (  channel_t1=0 and channel_t2=0 and channel_t3=1 )  AND `come_date` BETWEEN 1531929600 AND 1534608000 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cem_info` [ RunTime:0.031250s ]
+[ sql ] [ SQL ] SELECT sum(money) FROM `cem_info` WHERE  `contacts_id` IN (0) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `visit_log` WHERE  (  channel_t1=0 and channel_t2=0 and channel_t3=14 )  AND `come_date` BETWEEN 1531929600 AND 1534608000 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `visit_log` WHERE  (  channel_t1=0 and channel_t2=0 and channel_t3=14 and transaction_status=1  )  AND `come_date` BETWEEN 1531929600 AND 1534608000 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `contacts_id` FROM `visit_log` WHERE  (  channel_t1=0 and channel_t2=0 and channel_t3=14 )  AND `come_date` BETWEEN 1531929600 AND 1534608000 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT sum(money) FROM `cem_info` WHERE  `contacts_id` IN (0) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `visit_log` WHERE  (  channel_t1=0 and channel_t2=0 and channel_t3=16 )  AND `come_date` BETWEEN 1531929600 AND 1534608000 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `visit_log` WHERE  (  channel_t1=0 and channel_t2=0 and channel_t3=16 and transaction_status=1  )  AND `come_date` BETWEEN 1531929600 AND 1534608000 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `contacts_id` FROM `visit_log` WHERE  (  channel_t1=0 and channel_t2=0 and channel_t3=16 )  AND `come_date` BETWEEN 1531929600 AND 1534608000 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT sum(money) FROM `cem_info` WHERE  `contacts_id` IN (0) [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `visit_log` WHERE  (  channel_t1=0 and channel_t2=0 and channel_t3=17 )  AND `come_date` BETWEEN 1531929600 AND 1534608000 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `visit_log` WHERE  (  channel_t1=0 and channel_t2=0 and channel_t3=17 and transaction_status=1  )  AND `come_date` BETWEEN 1531929600 AND 1534608000 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `contacts_id` FROM `visit_log` WHERE  (  channel_t1=0 and channel_t2=0 and channel_t3=17 )  AND `come_date` BETWEEN 1531929600 AND 1534608000 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT sum(money) FROM `cem_info` WHERE  `contacts_id` IN (0) [ RunTime:0.000000s ]
+[ error ] [8]未定义变量: buy[D:\phpstudy\PHPTutorial\WWW\md\application\index\model\CemInfo.php:9126]
+[ error ] [2]Invalid argument supplied for foreach()[D:\phpstudy\PHPTutorial\WWW\md\application\index\model\CemInfo.php:9126]
+[ error ] [8]未定义变量: buy[D:\phpstudy\PHPTutorial\WWW\md\application\index\model\CemInfo.php:9126]
+[ error ] [2]Invalid argument supplied for foreach()[D:\phpstudy\PHPTutorial\WWW\md\application\index\model\CemInfo.php:9126]
+[ error ] [8]未定义变量: buy[D:\phpstudy\PHPTutorial\WWW\md\application\index\model\CemInfo.php:9126]
+[ error ] [2]Invalid argument supplied for foreach()[D:\phpstudy\PHPTutorial\WWW\md\application\index\model\CemInfo.php:9126]
+[ error ] [8]未定义变量: buy[D:\phpstudy\PHPTutorial\WWW\md\application\index\model\CemInfo.php:9126]
+[ error ] [2]Invalid argument supplied for foreach()[D:\phpstudy\PHPTutorial\WWW\md\application\index\model\CemInfo.php:9126]
+---------------------------------------------------------------
+[ 2018-08-19T14:52:44+08:00 ] 114.113.119.109 101.226.86.152 GET /index/Tomb/glprice/gtime/4.html
+[ info ] www.fumijituan.com/index/Tomb/glprice/gtime/4.html [运行时间：0.109375s][吞吐率：9.14req/s] [内存消耗：2,057.41kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpstudy\PHPTutorial\WWW\md\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Tomb',
+    2 => 'glprice',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'host' => 'www.fumijituan.com',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'referer' => 'http://www.fumijituan.com/index/Tomb/glprice/gtime/3.html',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.124 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+  'gtime' => '4',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'home',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-19T14:52:48+08:00 ] 114.113.119.109 42.102.25.178 GET /index/statistic/zf.html
+[ info ] www.fumijituan.com/index/statistic/zf.html [运行时间：0.187500s][吞吐率：5.33req/s] [内存消耗：2,197.66kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpstudy\PHPTutorial\WWW\md\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'statistic',
+    2 => 'zf',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=108355972.4226525289363062000.1534577120716.8413; PHPSESSID=v97oog9gp70o9shp06sspgshb3; monitor_count=162',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://www.fumijituan.com/index/statistic/qudao.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.fumijituan.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'home',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Statistic->zf[ D:\phpstudy\PHPTutorial\WWW\md\application\index\controller\Statistic.php ]
+[ info ] [ VIEW ] D:\phpstudy\PHPTutorial\WWW\md\public/../application/index\view\statistic\zf.html [ array (
+  0 => 'path_info',
+  1 => 'top_meun',
+  2 => 'left_meun',
+  3 => 'cem_list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=md;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth` [ RunTime:0.046875s ]
+[ sql ] [ SQL ] SELECT * FROM `auth` WHERE  `client_path` = 'Statistic/zf' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `a`.`id`,`a`.`pid`,`a`.`name`,`a`.`client_path` FROM `auth` `a` RIGHT JOIN `otm` `b` ON `a`.`id`=`b`.`mk` WHERE  `a`.`is_menu` = 1  AND `a`.`pid` = 0  AND `b`.`ok` = 1  AND `b`.`type` = 1 ORDER BY `a`.`order_by_id`  desc,`a`.`id`  asc [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT * FROM `auth` WHERE  `client_path` = 'Statistic/zf' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `a`.`id`,`a`.`pid`,`a`.`name`,`a`.`client_path` FROM `auth` `a` RIGHT JOIN `otm` `b` ON `a`.`id`=`b`.`mk` WHERE  `a`.`is_menu` = 1  AND `a`.`pid` = 57  AND `b`.`ok` = 1  AND `b`.`type` = 1 ORDER BY `a`.`order_by_id`  desc,`a`.`id`  asc [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cem` [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`desc`,`thumb` FROM `cem` [ RunTime:0.015625s ]
+---------------------------------------------------------------
+[ 2018-08-19T14:53:01+08:00 ] 114.113.119.109 42.102.25.178 GET /index/cemetery/index.html
+[ info ] www.fumijituan.com/index/cemetery/index.html [运行时间：0.194336s][吞吐率：5.15req/s] [内存消耗：2,033.80kb] [文件加载：51]
+[ info ] [ LANG ] D:\phpstudy\PHPTutorial\WWW\md\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'cemetery',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=108355972.4226525289363062000.1534577120716.8413; PHPSESSID=v97oog9gp70o9shp06sspgshb3; monitor_count=163',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://www.fumijituan.com/index/statistic/zf.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.fumijituan.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'home',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Root->index[ D:\phpstudy\PHPTutorial\WWW\md\application\index\controller\Root.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015625s ] mysql:dbname=md;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth` [ RunTime:0.033203s ]
+[ sql ] [ SQL ] SELECT * FROM `auth` WHERE  `client_path` = 'Cemetery/index' LIMIT 1 [ RunTime:0.000976s ]
+[ sql ] [ SQL ] SELECT `a`.`id`,`a`.`pid`,`a`.`name`,`a`.`client_path` FROM `auth` `a` RIGHT JOIN `otm` `b` ON `a`.`id`=`b`.`mk` WHERE  `a`.`is_menu` = 1  AND `a`.`pid` = 0  AND `b`.`ok` = 1  AND `b`.`type` = 1 ORDER BY `a`.`order_by_id`  desc,`a`.`id`  asc [ RunTime:0.001953s ]
+[ sql ] [ SQL ] SELECT * FROM `auth` WHERE  `client_path` = 'Cemetery/index' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `a`.`id`,`a`.`pid`,`a`.`name`,`a`.`client_path` FROM `auth` `a` RIGHT JOIN `otm` `b` ON `a`.`id`=`b`.`mk` WHERE  `a`.`is_menu` = 1  AND `a`.`pid` = 25  AND `b`.`ok` = 1  AND `b`.`type` = 1 ORDER BY `a`.`order_by_id`  desc,`a`.`id`  asc [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `come_channel` [ RunTime:0.031250s ]
+[ sql ] [ SQL ] SELECT `id`,`sn`,`desc`,`title`,`pid`,`ppid` FROM `come_channel` WHERE  `pid` = 0 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id`,`sn`,`desc`,`title`,`pid`,`ppid` FROM `come_channel` WHERE  `pid` > 0  AND `ppid` = 0 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id`,`sn`,`desc`,`title`,`pid`,`ppid` FROM `come_channel` WHERE  `ppid` > 0 [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT `id` FROM `auth` WHERE  `client_path` = 'Cemetery/index' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `client_path` FROM `auth` WHERE  `pid` = 25 ORDER BY `order_by_id`  desc LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-08-19T14:53:01+08:00 ] 114.113.119.109 42.102.25.178 GET /index/tomb/sale.html
+[ info ] www.fumijituan.com/index/tomb/sale.html [运行时间：0.371094s][吞吐率：2.69req/s] [内存消耗：2,555.40kb] [文件加载：54]
+[ info ] [ LANG ] D:\phpstudy\PHPTutorial\WWW\md\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'tomb',
+    2 => 'sale',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=108355972.4226525289363062000.1534577120716.8413; PHPSESSID=v97oog9gp70o9shp06sspgshb3; monitor_count=163',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://www.fumijituan.com/index/statistic/zf.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.fumijituan.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'home',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Tomb->sale[ D:\phpstudy\PHPTutorial\WWW\md\application\index\controller\Tomb.php ]
+[ info ] [ VIEW ] D:\phpstudy\PHPTutorial\WWW\md\public/../application/index\view\tomb\sale.html [ array (
+  0 => 'path_info',
+  1 => 'top_meun',
+  2 => 'left_meun',
+  3 => 't1',
+  4 => 't2',
+  5 => 't3',
+  6 => 'cem_list',
+  7 => 'cem_style',
+  8 => 'cem_material',
+  9 => 'relationship',
+  10 => 'cem_status',
+  11 => 'come_num',
+  12 => 'come_fun',
+  13 => 'no_transaction_ps',
+  14 => 'staff',
+  15 => 'list',
+  16 => 'wh',
+  17 => 'count',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.016602s ] mysql:dbname=md;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth` [ RunTime:0.031250s ]
+[ sql ] [ SQL ] SELECT * FROM `auth` WHERE  `client_path` = 'Tomb/sale' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `a`.`id`,`a`.`pid`,`a`.`name`,`a`.`client_path` FROM `auth` `a` RIGHT JOIN `otm` `b` ON `a`.`id`=`b`.`mk` WHERE  `a`.`is_menu` = 1  AND `a`.`pid` = 0  AND `b`.`ok` = 1  AND `b`.`type` = 1 ORDER BY `a`.`order_by_id`  desc,`a`.`id`  asc [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `auth` WHERE  `client_path` = 'Tomb/sale' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `a`.`id`,`a`.`pid`,`a`.`name`,`a`.`client_path` FROM `auth` `a` RIGHT JOIN `otm` `b` ON `a`.`id`=`b`.`mk` WHERE  `a`.`is_menu` = 1  AND `a`.`pid` = 25  AND `b`.`ok` = 1  AND `b`.`type` = 1 ORDER BY `a`.`order_by_id`  desc,`a`.`id`  asc [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `come_channel` [ RunTime:0.040039s ]
+[ sql ] [ SQL ] SELECT `id`,`sn`,`desc`,`title`,`pid`,`ppid` FROM `come_channel` WHERE  `pid` = 0 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id`,`sn`,`desc`,`title`,`pid`,`ppid` FROM `come_channel` WHERE  `pid` > 0  AND `ppid` = 0 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id`,`sn`,`desc`,`title`,`pid`,`ppid` FROM `come_channel` WHERE  `ppid` > 0 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cem` [ RunTime:0.031250s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`desc`,`thumb` FROM `cem` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tpl` [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT * FROM `tpl` WHERE  `type` = 2 ORDER BY `order_by_id`  DESC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tpl` WHERE  `type` = 3 ORDER BY `order_by_id`  DESC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tpl` WHERE  `type` = 4 ORDER BY `order_by_id`  DESC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tpl` WHERE  `type` = 9 ORDER BY `order_by_id`  DESC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tpl` WHERE  `type` = 13 ORDER BY `order_by_id`  DESC [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT * FROM `tpl` WHERE  `type` = 5 ORDER BY `order_by_id`  DESC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tpl` WHERE  `type` = 6 ORDER BY `order_by_id`  DESC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `staff` [ RunTime:0.031250s ]
+[ sql ] [ SQL ] SELECT * FROM `staff` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `contacts` [ RunTime:0.031250s ]
+[ sql ] [ SQL ] SELECT * FROM `contacts` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `contacts` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-08-19T14:53:03+08:00 ] 114.113.119.109 42.102.25.178 GET /index/tomb/glprice.html
+[ info ] www.fumijituan.com/index/tomb/glprice.html [运行时间：0.395508s][吞吐率：2.53req/s] [内存消耗：4,144.00kb] [文件加载：57]
+[ info ] [ LANG ] D:\phpstudy\PHPTutorial\WWW\md\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'tomb',
+    2 => 'glprice',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=108355972.4226525289363062000.1534577120716.8413; PHPSESSID=v97oog9gp70o9shp06sspgshb3; monitor_count=164',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://www.fumijituan.com/index/tomb/sale.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.fumijituan.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'home',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Tomb->glprice[ D:\phpstudy\PHPTutorial\WWW\md\application\index\controller\Tomb.php ]
+[ info ] [ VIEW ] D:\phpstudy\PHPTutorial\WWW\md\public/../application/index\view\tomb\glprice.html [ array (
+  0 => 'path_info',
+  1 => 'top_meun',
+  2 => 'left_meun',
+  3 => 't1',
+  4 => 't2',
+  5 => 't3',
+  6 => 'cem_list',
+  7 => 'cem_style',
+  8 => 'cem_material',
+  9 => 'relationship',
+  10 => 'cem_status',
+  11 => 'come_num',
+  12 => 'come_fun',
+  13 => 'no_transaction_ps',
+  14 => 'staff',
+  15 => 'row_staff',
+  16 => 'sysyst',
+  17 => 'ltime',
+  18 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015625s ] mysql:dbname=md;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth` [ RunTime:0.047852s ]
+[ sql ] [ SQL ] SELECT * FROM `auth` WHERE  `client_path` = 'Tomb/glprice' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `a`.`id`,`a`.`pid`,`a`.`name`,`a`.`client_path` FROM `auth` `a` RIGHT JOIN `otm` `b` ON `a`.`id`=`b`.`mk` WHERE  `a`.`is_menu` = 1  AND `a`.`pid` = 0  AND `b`.`ok` = 1  AND `b`.`type` = 1 ORDER BY `a`.`order_by_id`  desc,`a`.`id`  asc [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `auth` WHERE  `client_path` = 'Tomb/glprice' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `a`.`id`,`a`.`pid`,`a`.`name`,`a`.`client_path` FROM `auth` `a` RIGHT JOIN `otm` `b` ON `a`.`id`=`b`.`mk` WHERE  `a`.`is_menu` = 1  AND `a`.`pid` = 25  AND `b`.`ok` = 1  AND `b`.`type` = 1 ORDER BY `a`.`order_by_id`  desc,`a`.`id`  asc [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `come_channel` [ RunTime:0.022461s ]
+[ sql ] [ SQL ] SELECT `id`,`sn`,`desc`,`title`,`pid`,`ppid` FROM `come_channel` WHERE  `pid` = 0 [ RunTime:0.000976s ]
+[ sql ] [ SQL ] SELECT `id`,`sn`,`desc`,`title`,`pid`,`ppid` FROM `come_channel` WHERE  `pid` > 0  AND `ppid` = 0 [ RunTime:0.000976s ]
+[ sql ] [ SQL ] SELECT `id`,`sn`,`desc`,`title`,`pid`,`ppid` FROM `come_channel` WHERE  `ppid` > 0 [ RunTime:0.004883s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cem` [ RunTime:0.035156s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`desc`,`thumb` FROM `cem` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tpl` [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT * FROM `tpl` WHERE  `type` = 2 ORDER BY `order_by_id`  DESC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tpl` WHERE  `type` = 3 ORDER BY `order_by_id`  DESC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tpl` WHERE  `type` = 4 ORDER BY `order_by_id`  DESC [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT * FROM `tpl` WHERE  `type` = 9 ORDER BY `order_by_id`  DESC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tpl` WHERE  `type` = 13 ORDER BY `order_by_id`  DESC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tpl` WHERE  `type` = 5 ORDER BY `order_by_id`  DESC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tpl` WHERE  `type` = 6 ORDER BY `order_by_id`  DESC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `staff` [ RunTime:0.031250s ]
+[ sql ] [ SQL ] SELECT * FROM `staff` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `staff` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tpl` ORDER BY `order_by_id`  DESC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cem_info` [ RunTime:0.031250s ]
+[ sql ] [ SQL ] SELECT * FROM `cem_info` `a` INNER JOIN `contacts` `b` ON `a`.`contacts_id`=`b`.`id` WHERE  `a`.`pay_status` = 1  AND `a`.`status` = 44  AND `a`.`sta` = 3 [ RunTime:0.000000s ]
+[ error ] [8192]Non-static method app\index\model\Tpl::wlists() should not be called statically[D:\phpstudy\PHPTutorial\WWW\md\application\index\controller\Tomb.php:1080]
+[ error ] [2]Missing argument 1 for app\index\model\Tpl::__construct(), called in D:\phpstudy\PHPTutorial\WWW\md\thinkphp\library\think\Model.php on line 1960 and defined[D:\phpstudy\PHPTutorial\WWW\md\application\index\model\Tpl.php:13]
+[ error ] [8]未定义变量: type[D:\phpstudy\PHPTutorial\WWW\md\application\index\model\Tpl.php:15]
+[ error ] [8]未定义数组索引: today[D:\phpstudy\PHPTutorial\WWW\md\application\index\controller\Tomb.php:1115]
+[ error ] [8]未定义数组索引: gtime[D:\phpstudy\PHPTutorial\WWW\md\application\index\controller\Tomb.php:1123]
+[ error ] [8]未定义变量: gtime[D:\phpstudy\PHPTutorial\WWW\md\runtime\temp\d86594af8a1fc4f60e8484f122deb163.php:105]
+[ error ] [8]未定义变量: gtime[D:\phpstudy\PHPTutorial\WWW\md\runtime\temp\d86594af8a1fc4f60e8484f122deb163.php:108]
+[ error ] [8]未定义变量: gtime[D:\phpstudy\PHPTutorial\WWW\md\runtime\temp\d86594af8a1fc4f60e8484f122deb163.php:111]
+[ error ] [8]未定义变量: gtime[D:\phpstudy\PHPTutorial\WWW\md\runtime\temp\d86594af8a1fc4f60e8484f122deb163.php:114]
+[ error ] [8]未定义变量: today[D:\phpstudy\PHPTutorial\WWW\md\runtime\temp\d86594af8a1fc4f60e8484f122deb163.php:120]
+[ error ] [8]未定义变量: count[D:\phpstudy\PHPTutorial\WWW\md\runtime\temp\d86594af8a1fc4f60e8484f122deb163.php:126]
+[ error ] [2]date() expects parameter 2 to be integer, string given[D:\phpstudy\PHPTutorial\WWW\md\runtime\temp\d86594af8a1fc4f60e8484f122deb163.php:168]
+---------------------------------------------------------------
+[ 2018-08-19T14:53:08+08:00 ] 114.113.119.109 42.102.25.178 GET /index/Tomb/glprice/gtime/3.html
+[ info ] www.fumijituan.com/index/Tomb/glprice/gtime/3.html [运行时间：0.390625s][吞吐率：2.56req/s] [内存消耗：4,112.63kb] [文件加载：57]
+[ info ] [ LANG ] D:\phpstudy\PHPTutorial\WWW\md\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Tomb',
+    2 => 'glprice',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=108355972.4226525289363062000.1534577120716.8413; PHPSESSID=v97oog9gp70o9shp06sspgshb3; monitor_count=165',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://www.fumijituan.com/index/tomb/glprice.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.fumijituan.com',
+)
+[ info ] [ PARAM ] array (
+  'gtime' => '3',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'home',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Tomb->glprice[ D:\phpstudy\PHPTutorial\WWW\md\application\index\controller\Tomb.php ]
+[ info ] [ VIEW ] D:\phpstudy\PHPTutorial\WWW\md\public/../application/index\view\tomb\glprice.html [ array (
+  0 => 'path_info',
+  1 => 'top_meun',
+  2 => 'left_meun',
+  3 => 't1',
+  4 => 't2',
+  5 => 't3',
+  6 => 'cem_list',
+  7 => 'cem_style',
+  8 => 'cem_material',
+  9 => 'relationship',
+  10 => 'cem_status',
+  11 => 'come_num',
+  12 => 'come_fun',
+  13 => 'no_transaction_ps',
+  14 => 'staff',
+  15 => 'row_staff',
+  16 => 'sysyst',
+  17 => 'ltime',
+  18 => 'gtime',
+  19 => 'today',
+  20 => 'count',
+  21 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=md;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth` [ RunTime:0.046875s ]
+[ sql ] [ SQL ] SELECT * FROM `auth` WHERE  `client_path` = 'Tomb/glprice' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `a`.`id`,`a`.`pid`,`a`.`name`,`a`.`client_path` FROM `auth` `a` RIGHT JOIN `otm` `b` ON `a`.`id`=`b`.`mk` WHERE  `a`.`is_menu` = 1  AND `a`.`pid` = 0  AND `b`.`ok` = 1  AND `b`.`type` = 1 ORDER BY `a`.`order_by_id`  desc,`a`.`id`  asc [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `auth` WHERE  `client_path` = 'Tomb/glprice' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `a`.`id`,`a`.`pid`,`a`.`name`,`a`.`client_path` FROM `auth` `a` RIGHT JOIN `otm` `b` ON `a`.`id`=`b`.`mk` WHERE  `a`.`is_menu` = 1  AND `a`.`pid` = 25  AND `b`.`ok` = 1  AND `b`.`type` = 1 ORDER BY `a`.`order_by_id`  desc,`a`.`id`  asc [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `come_channel` [ RunTime:0.031250s ]
+[ sql ] [ SQL ] SELECT `id`,`sn`,`desc`,`title`,`pid`,`ppid` FROM `come_channel` WHERE  `pid` = 0 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id`,`sn`,`desc`,`title`,`pid`,`ppid` FROM `come_channel` WHERE  `pid` > 0  AND `ppid` = 0 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id`,`sn`,`desc`,`title`,`pid`,`ppid` FROM `come_channel` WHERE  `ppid` > 0 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cem` [ RunTime:0.046875s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`desc`,`thumb` FROM `cem` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tpl` [ RunTime:0.046875s ]
+[ sql ] [ SQL ] SELECT * FROM `tpl` WHERE  `type` = 2 ORDER BY `order_by_id`  DESC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tpl` WHERE  `type` = 3 ORDER BY `order_by_id`  DESC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tpl` WHERE  `type` = 4 ORDER BY `order_by_id`  DESC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tpl` WHERE  `type` = 9 ORDER BY `order_by_id`  DESC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tpl` WHERE  `type` = 13 ORDER BY `order_by_id`  DESC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tpl` WHERE  `type` = 5 ORDER BY `order_by_id`  DESC [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT * FROM `tpl` WHERE  `type` = 6 ORDER BY `order_by_id`  DESC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `staff` [ RunTime:0.031250s ]
+[ sql ] [ SQL ] SELECT * FROM `staff` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `staff` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tpl` ORDER BY `order_by_id`  DESC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cem_info` [ RunTime:0.046875s ]
+[ sql ] [ SQL ] SELECT * FROM `cem_info` `a` INNER JOIN `contacts` `b` ON `a`.`contacts_id`=`b`.`id` WHERE  (  a.pay_status=1 and a.status = 44 and a.sta = 3 and a.manage_time >= 1533052800 and a.manage_time<=1535731199 ) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `cem_info` `a` INNER JOIN `contacts` `b` ON `a`.`contacts_id`=`b`.`id` WHERE  (  a.pay_status=1 and a.status = 44 and a.sta = 3 and a.manage_time >= 1533052800 and a.manage_time<=1535731199 ) [ RunTime:0.000000s ]
+[ error ] [8192]Non-static method app\index\model\Tpl::wlists() should not be called statically[D:\phpstudy\PHPTutorial\WWW\md\application\index\controller\Tomb.php:1080]
+[ error ] [2]Missing argument 1 for app\index\model\Tpl::__construct(), called in D:\phpstudy\PHPTutorial\WWW\md\thinkphp\library\think\Model.php on line 1960 and defined[D:\phpstudy\PHPTutorial\WWW\md\application\index\model\Tpl.php:13]
+[ error ] [8]未定义变量: type[D:\phpstudy\PHPTutorial\WWW\md\application\index\model\Tpl.php:15]
+[ error ] [8]未定义数组索引: today[D:\phpstudy\PHPTutorial\WWW\md\application\index\controller\Tomb.php:1115]
+[ error ] [8]未定义数组索引: today[D:\phpstudy\PHPTutorial\WWW\md\application\index\controller\Tomb.php:1135]
+---------------------------------------------------------------
+[ 2018-08-19T14:53:10+08:00 ] 114.113.119.109 42.102.25.178 GET /index/Tomb/glprice/gtime/4.html
+[ info ] www.fumijituan.com/index/Tomb/glprice/gtime/4.html [运行时间：0.437500s][吞吐率：2.29req/s] [内存消耗：4,133.63kb] [文件加载：57]
+[ info ] [ LANG ] D:\phpstudy\PHPTutorial\WWW\md\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Tomb',
+    2 => 'glprice',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=108355972.4226525289363062000.1534577120716.8413; PHPSESSID=v97oog9gp70o9shp06sspgshb3; monitor_count=166',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://www.fumijituan.com/index/Tomb/glprice/gtime/3.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.fumijituan.com',
+)
+[ info ] [ PARAM ] array (
+  'gtime' => '4',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'home',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Tomb->glprice[ D:\phpstudy\PHPTutorial\WWW\md\application\index\controller\Tomb.php ]
+[ info ] [ VIEW ] D:\phpstudy\PHPTutorial\WWW\md\public/../application/index\view\tomb\glprice.html [ array (
+  0 => 'path_info',
+  1 => 'top_meun',
+  2 => 'left_meun',
+  3 => 't1',
+  4 => 't2',
+  5 => 't3',
+  6 => 'cem_list',
+  7 => 'cem_style',
+  8 => 'cem_material',
+  9 => 'relationship',
+  10 => 'cem_status',
+  11 => 'come_num',
+  12 => 'come_fun',
+  13 => 'no_transaction_ps',
+  14 => 'staff',
+  15 => 'row_staff',
+  16 => 'sysyst',
+  17 => 'ltime',
+  18 => 'gtime',
+  19 => 'today',
+  20 => 'count',
+  21 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015625s ] mysql:dbname=md;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth` [ RunTime:0.041015s ]
+[ sql ] [ SQL ] SELECT * FROM `auth` WHERE  `client_path` = 'Tomb/glprice' LIMIT 1 [ RunTime:0.000976s ]
+[ sql ] [ SQL ] SELECT `a`.`id`,`a`.`pid`,`a`.`name`,`a`.`client_path` FROM `auth` `a` RIGHT JOIN `otm` `b` ON `a`.`id`=`b`.`mk` WHERE  `a`.`is_menu` = 1  AND `a`.`pid` = 0  AND `b`.`ok` = 1  AND `b`.`type` = 1 ORDER BY `a`.`order_by_id`  desc,`a`.`id`  asc [ RunTime:0.001953s ]
+[ sql ] [ SQL ] SELECT * FROM `auth` WHERE  `client_path` = 'Tomb/glprice' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `a`.`id`,`a`.`pid`,`a`.`name`,`a`.`client_path` FROM `auth` `a` RIGHT JOIN `otm` `b` ON `a`.`id`=`b`.`mk` WHERE  `a`.`is_menu` = 1  AND `a`.`pid` = 25  AND `b`.`ok` = 1  AND `b`.`type` = 1 ORDER BY `a`.`order_by_id`  desc,`a`.`id`  asc [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `come_channel` [ RunTime:0.046875s ]
+[ sql ] [ SQL ] SELECT `id`,`sn`,`desc`,`title`,`pid`,`ppid` FROM `come_channel` WHERE  `pid` = 0 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id`,`sn`,`desc`,`title`,`pid`,`ppid` FROM `come_channel` WHERE  `pid` > 0  AND `ppid` = 0 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id`,`sn`,`desc`,`title`,`pid`,`ppid` FROM `come_channel` WHERE  `ppid` > 0 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cem` [ RunTime:0.032227s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`desc`,`thumb` FROM `cem` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tpl` [ RunTime:0.046875s ]
+[ sql ] [ SQL ] SELECT * FROM `tpl` WHERE  `type` = 2 ORDER BY `order_by_id`  DESC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tpl` WHERE  `type` = 3 ORDER BY `order_by_id`  DESC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tpl` WHERE  `type` = 4 ORDER BY `order_by_id`  DESC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tpl` WHERE  `type` = 9 ORDER BY `order_by_id`  DESC [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT * FROM `tpl` WHERE  `type` = 13 ORDER BY `order_by_id`  DESC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tpl` WHERE  `type` = 5 ORDER BY `order_by_id`  DESC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tpl` WHERE  `type` = 6 ORDER BY `order_by_id`  DESC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `staff` [ RunTime:0.031250s ]
+[ sql ] [ SQL ] SELECT * FROM `staff` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `staff` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tpl` ORDER BY `order_by_id`  DESC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cem_info` [ RunTime:0.046875s ]
+[ sql ] [ SQL ] SELECT * FROM `cem_info` `a` INNER JOIN `contacts` `b` ON `a`.`contacts_id`=`b`.`id` WHERE  (  a.pay_status=1 and a.status = 44 and a.sta = 3 and a.manage_time >= 1533052800 and a.manage_time<=1543593600 ) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `cem_info` `a` INNER JOIN `contacts` `b` ON `a`.`contacts_id`=`b`.`id` WHERE  (  a.pay_status=1 and a.status = 44 and a.sta = 3 and a.manage_time >= 1533052800 and a.manage_time<=1543593600 ) [ RunTime:0.015625s ]
+[ error ] [8192]Non-static method app\index\model\Tpl::wlists() should not be called statically[D:\phpstudy\PHPTutorial\WWW\md\application\index\controller\Tomb.php:1080]
+[ error ] [2]Missing argument 1 for app\index\model\Tpl::__construct(), called in D:\phpstudy\PHPTutorial\WWW\md\thinkphp\library\think\Model.php on line 1960 and defined[D:\phpstudy\PHPTutorial\WWW\md\application\index\model\Tpl.php:13]
+[ error ] [8]未定义变量: type[D:\phpstudy\PHPTutorial\WWW\md\application\index\model\Tpl.php:15]
+[ error ] [8]未定义数组索引: today[D:\phpstudy\PHPTutorial\WWW\md\application\index\controller\Tomb.php:1115]
+[ error ] [8]未定义数组索引: today[D:\phpstudy\PHPTutorial\WWW\md\application\index\controller\Tomb.php:1135]
+---------------------------------------------------------------
+[ 2018-08-19T14:53:37+08:00 ] 114.113.119.109 42.102.25.178 GET /index/tomb/azset.html
+[ info ] www.fumijituan.com/index/tomb/azset.html [运行时间：0.400390s][吞吐率：2.50req/s] [内存消耗：2,470.02kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpstudy\PHPTutorial\WWW\md\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'tomb',
+    2 => 'azset',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=108355972.4226525289363062000.1534577120716.8413; PHPSESSID=v97oog9gp70o9shp06sspgshb3; monitor_count=167',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://www.fumijituan.com/index/Tomb/glprice/gtime/4.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.fumijituan.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'home',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Tomb->azset[ D:\phpstudy\PHPTutorial\WWW\md\application\index\controller\Tomb.php ]
+[ info ] [ VIEW ] D:\phpstudy\PHPTutorial\WWW\md\public/../application/index\view\tomb\azset.html [ array (
+  0 => 'path_info',
+  1 => 'top_meun',
+  2 => 'left_meun',
+  3 => 't1',
+  4 => 't2',
+  5 => 't3',
+  6 => 'cem_list',
+  7 => 'cem_style',
+  8 => 'cem_material',
+  9 => 'relationship',
+  10 => 'cem_status',
+  11 => 'come_num',
+  12 => 'come_fun',
+  13 => 'no_transaction_ps',
+  14 => 'staff',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.032227s ] mysql:dbname=md;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth` [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT * FROM `auth` WHERE  `client_path` = 'Tomb/azset' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `a`.`id`,`a`.`pid`,`a`.`name`,`a`.`client_path` FROM `auth` `a` RIGHT JOIN `otm` `b` ON `a`.`id`=`b`.`mk` WHERE  `a`.`is_menu` = 1  AND `a`.`pid` = 0  AND `b`.`ok` = 1  AND `b`.`type` = 1 ORDER BY `a`.`order_by_id`  desc,`a`.`id`  asc [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `auth` WHERE  `client_path` = 'Tomb/azset' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `a`.`id`,`a`.`pid`,`a`.`name`,`a`.`client_path` FROM `auth` `a` RIGHT JOIN `otm` `b` ON `a`.`id`=`b`.`mk` WHERE  `a`.`is_menu` = 1  AND `a`.`pid` = 25  AND `b`.`ok` = 1  AND `b`.`type` = 1 ORDER BY `a`.`order_by_id`  desc,`a`.`id`  asc [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `come_channel` [ RunTime:0.039063s ]
+[ sql ] [ SQL ] SELECT `id`,`sn`,`desc`,`title`,`pid`,`ppid` FROM `come_channel` WHERE  `pid` = 0 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id`,`sn`,`desc`,`title`,`pid`,`ppid` FROM `come_channel` WHERE  `pid` > 0  AND `ppid` = 0 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id`,`sn`,`desc`,`title`,`pid`,`ppid` FROM `come_channel` WHERE  `ppid` > 0 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cem` [ RunTime:0.062500s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`desc`,`thumb` FROM `cem` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tpl` [ RunTime:0.057617s ]
+[ sql ] [ SQL ] SELECT * FROM `tpl` WHERE  `type` = 2 ORDER BY `order_by_id`  DESC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tpl` WHERE  `type` = 3 ORDER BY `order_by_id`  DESC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tpl` WHERE  `type` = 4 ORDER BY `order_by_id`  DESC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tpl` WHERE  `type` = 9 ORDER BY `order_by_id`  DESC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tpl` WHERE  `type` = 13 ORDER BY `order_by_id`  DESC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tpl` WHERE  `type` = 5 ORDER BY `order_by_id`  DESC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tpl` WHERE  `type` = 6 ORDER BY `order_by_id`  DESC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `staff` [ RunTime:0.045898s ]
+[ sql ] [ SQL ] SELECT * FROM `staff` [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-08-19T14:53:40+08:00 ] 114.113.119.109 42.102.25.178 POST /index/tomb/select_azset_list_all.html
+[ info ] www.fumijituan.com/index/tomb/select_azset_list_all.html [运行时间：0.546875s][吞吐率：1.83req/s] [内存消耗：4,023.73kb] [文件加载：53]
+[ info ] [ LANG ] D:\phpstudy\PHPTutorial\WWW\md\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'tomb',
+    2 => 'select_azset_list_all',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=108355972.4226525289363062000.1534577120716.8413; PHPSESSID=v97oog9gp70o9shp06sspgshb3; monitor_count=168',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.fumijituan.com/index/tomb/azset.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.fumijituan.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '0',
+  'connection' => 'close',
+  'host' => 'www.fumijituan.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'home',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Tomb->select_azset_list_all[ D:\phpstudy\PHPTutorial\WWW\md\application\index\controller\Tomb.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015625s ] mysql:dbname=md;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth` [ RunTime:0.031250s ]
+[ sql ] [ SQL ] SELECT * FROM `auth` WHERE  `client_path` = 'Tomb/select_azset_list_all' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `a`.`id`,`a`.`pid`,`a`.`name`,`a`.`client_path` FROM `auth` `a` RIGHT JOIN `otm` `b` ON `a`.`id`=`b`.`mk` WHERE  `a`.`is_menu` = 1  AND `a`.`pid` = 0  AND `b`.`ok` = 1  AND `b`.`type` = 1 ORDER BY `a`.`order_by_id`  desc,`a`.`id`  asc [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `auth` WHERE  `client_path` = 'Tomb/select_azset_list_all' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `a`.`id`,`a`.`pid`,`a`.`name`,`a`.`client_path` FROM `auth` `a` RIGHT JOIN `otm` `b` ON `a`.`id`=`b`.`mk` WHERE  `a`.`is_menu` = 1  AND `a`.`pid` IS NULL  AND `b`.`ok` = 1  AND `b`.`type` = 1 ORDER BY `a`.`order_by_id`  desc,`a`.`id`  asc [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `come_channel` [ RunTime:0.031250s ]
+[ sql ] [ SQL ] SELECT `id`,`sn`,`desc`,`title`,`pid`,`ppid` FROM `come_channel` WHERE  `pid` = 0 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id`,`sn`,`desc`,`title`,`pid`,`ppid` FROM `come_channel` WHERE  `pid` > 0  AND `ppid` = 0 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id`,`sn`,`desc`,`title`,`pid`,`ppid` FROM `come_channel` WHERE  `ppid` > 0 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cem` [ RunTime:0.046875s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`desc`,`thumb` FROM `cem` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tpl` [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT * FROM `tpl` WHERE  `type` = 2 ORDER BY `order_by_id`  DESC [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT * FROM `tpl` WHERE  `type` = 3 ORDER BY `order_by_id`  DESC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tpl` WHERE  `type` = 4 ORDER BY `order_by_id`  DESC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tpl` WHERE  `type` = 9 ORDER BY `order_by_id`  DESC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tpl` WHERE  `type` = 13 ORDER BY `order_by_id`  DESC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tpl` WHERE  `type` = 5 ORDER BY `order_by_id`  DESC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tpl` WHERE  `type` = 6 ORDER BY `order_by_id`  DESC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `staff` [ RunTime:0.046875s ]
+[ sql ] [ SQL ] SELECT * FROM `staff` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dead` [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT * FROM `dead` [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cem_info` [ RunTime:0.046875s ]
+[ sql ] [ SQL ] SELECT `long_title`,`znum`,`beizhu` FROM `cem_info` WHERE  `id` = 270 LIMIT 1 [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT `long_title`,`znum`,`beizhu` FROM `cem_info` WHERE  `id` = 272 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `long_title`,`znum`,`beizhu` FROM `cem_info` WHERE  `id` = 262 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `long_title`,`znum`,`beizhu` FROM `cem_info` WHERE  `id` = 262 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `long_title`,`znum`,`beizhu` FROM `cem_info` WHERE  `id` = 263 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `long_title`,`znum`,`beizhu` FROM `cem_info` WHERE  `id` = 292 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `long_title`,`znum`,`beizhu` FROM `cem_info` WHERE  `id` = 264 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `long_title`,`znum`,`beizhu` FROM `cem_info` WHERE  `id` = 265 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `long_title`,`znum`,`beizhu` FROM `cem_info` WHERE  `id` = 269 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `long_title`,`znum`,`beizhu` FROM `cem_info` WHERE  `id` = 271 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `long_title`,`znum`,`beizhu` FROM `cem_info` WHERE  `id` = 273 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `long_title`,`znum`,`beizhu` FROM `cem_info` WHERE  `id` = 276 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `long_title`,`znum`,`beizhu` FROM `cem_info` WHERE  `id` = 282 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `long_title`,`znum`,`beizhu` FROM `cem_info` WHERE  `id` = 290 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `long_title`,`znum`,`beizhu` FROM `cem_info` WHERE  `id` = 290 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `long_title`,`znum`,`beizhu` FROM `cem_info` WHERE  `id` = 293 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `long_title`,`znum`,`beizhu` FROM `cem_info` WHERE  `id` = 291 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `long_title`,`znum`,`beizhu` FROM `cem_info` WHERE  `id` = 291 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `long_title`,`znum`,`beizhu` FROM `cem_info` WHERE  `id` = 291 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `long_title`,`znum`,`beizhu` FROM `cem_info` WHERE  `id` = 291 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `long_title`,`znum`,`beizhu` FROM `cem_info` WHERE  `id` = 294 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `long_title`,`znum`,`beizhu` FROM `cem_info` WHERE  `id` = 306 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `long_title`,`znum`,`beizhu` FROM `cem_info` WHERE  `id` = 321 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `long_title`,`znum`,`beizhu` FROM `cem_info` WHERE  `id` = 274 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `long_title`,`znum`,`beizhu` FROM `cem_info` WHERE  `id` = 267 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `long_title`,`znum`,`beizhu` FROM `cem_info` WHERE  `id` = 268 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `long_title`,`znum`,`beizhu` FROM `cem_info` WHERE  `id` = 279 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `long_title`,`znum`,`beizhu` FROM `cem_info` WHERE  `id` = 268 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `long_title`,`znum`,`beizhu` FROM `cem_info` WHERE  `id` = 268 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `long_title`,`znum`,`beizhu` FROM `cem_info` WHERE  `id` = 300 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `long_title`,`znum`,`beizhu` FROM `cem_info` WHERE  `id` = 301 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `long_title`,`znum`,`beizhu` FROM `cem_info` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `long_title`,`znum`,`beizhu` FROM `cem_info` WHERE  `id` = 298 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `long_title`,`znum`,`beizhu` FROM `cem_info` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `long_title`,`znum`,`beizhu` FROM `cem_info` WHERE  `id` = 334 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `long_title`,`znum`,`beizhu` FROM `cem_info` WHERE  `id` = 319 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `long_title`,`znum`,`beizhu` FROM `cem_info` WHERE  `id` = 321 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `long_title`,`znum`,`beizhu` FROM `cem_info` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT `long_title`,`znum`,`beizhu` FROM `cem_info` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `long_title`,`znum`,`beizhu` FROM `cem_info` WHERE  `id` = 290 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `long_title`,`znum`,`beizhu` FROM `cem_info` WHERE  `id` = 291 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `long_title`,`znum`,`beizhu` FROM `cem_info` WHERE  `id` = 293 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `long_title`,`znum`,`beizhu` FROM `cem_info` WHERE  `id` = 308 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `long_title`,`znum`,`beizhu` FROM `cem_info` WHERE  `id` = 300 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `long_title`,`znum`,`beizhu` FROM `cem_info` WHERE  `id` = 274 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `long_title`,`znum`,`beizhu` FROM `cem_info` WHERE  `id` = 282 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `long_title`,`znum`,`beizhu` FROM `cem_info` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `long_title`,`znum`,`beizhu` FROM `cem_info` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT `long_title`,`znum`,`beizhu` FROM `cem_info` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `long_title`,`znum`,`beizhu` FROM `cem_info` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `long_title`,`znum`,`beizhu` FROM `cem_info` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `long_title`,`znum`,`beizhu` FROM `cem_info` WHERE  `id` = 410 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `long_title`,`znum`,`beizhu` FROM `cem_info` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT `long_title`,`znum`,`beizhu` FROM `cem_info` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `long_title`,`znum`,`beizhu` FROM `cem_info` WHERE  `id` = 409 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `long_title`,`znum`,`beizhu` FROM `cem_info` WHERE  `id` = 468 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `long_title`,`znum`,`beizhu` FROM `cem_info` WHERE  `id` = 468 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `long_title`,`znum`,`beizhu` FROM `cem_info` WHERE  `id` = 469 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `long_title`,`znum`,`beizhu` FROM `cem_info` WHERE  `id` = 469 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `long_title`,`znum`,`beizhu` FROM `cem_info` WHERE  `id` = 623 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `long_title`,`znum`,`beizhu` FROM `cem_info` WHERE  `id` = 623 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `long_title`,`znum`,`beizhu` FROM `cem_info` WHERE  `id` = 662 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `long_title`,`znum`,`beizhu` FROM `cem_info` WHERE  `id` = 662 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `long_title`,`znum`,`beizhu` FROM `cem_info` WHERE  `id` = 631 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `long_title`,`znum`,`beizhu` FROM `cem_info` WHERE  `id` = 632 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `long_title`,`znum`,`beizhu` FROM `cem_info` WHERE  `id` = 626 LIMIT 1 [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT `long_title`,`znum`,`beizhu` FROM `cem_info` WHERE  `id` = 635 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `long_title`,`znum`,`beizhu` FROM `cem_info` WHERE  `id` = 634 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `long_title`,`znum`,`beizhu` FROM `cem_info` WHERE  `id` = 637 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `long_title`,`znum`,`beizhu` FROM `cem_info` WHERE  `id` = 688 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `long_title`,`znum`,`beizhu` FROM `cem_info` WHERE  `id` = 687 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `long_title`,`znum`,`beizhu` FROM `cem_info` WHERE  `id` = 629 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `long_title`,`znum`,`beizhu` FROM `cem_info` WHERE  `id` = 693 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `long_title`,`znum`,`beizhu` FROM `cem_info` WHERE  `id` = 704 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `long_title`,`znum`,`beizhu` FROM `cem_info` WHERE  `id` = 721 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `long_title`,`znum`,`beizhu` FROM `cem_info` WHERE  `id` = 705 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `long_title`,`znum`,`beizhu` FROM `cem_info` WHERE  `id` = 692 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `long_title`,`znum`,`beizhu` FROM `cem_info` WHERE  `id` = 469 LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-08-19T14:53:49+08:00 ] 114.113.119.109 61.151.178.164 GET /index/statistic/zf.html
+[ info ] www.fumijituan.com/index/statistic/zf.html [运行时间：0.078125s][吞吐率：12.80req/s] [内存消耗：1,875.22kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpstudy\PHPTutorial\WWW\md\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'statistic',
+    2 => 'zf',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'host' => 'www.fumijituan.com',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'referer' => 'http://www.fumijituan.com/index/statistic/qudao.html',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'home',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-19T14:53:58+08:00 ] 114.113.119.109 42.102.25.178 POST /index/tomb/select_azset_list.html
+[ info ] www.fumijituan.com/index/tomb/select_azset_list.html [运行时间：0.469727s][吞吐率：2.13req/s] [内存消耗：3,962.95kb] [文件加载：53]
+[ info ] [ LANG ] D:\phpstudy\PHPTutorial\WWW\md\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'tomb',
+    2 => 'select_azset_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=108355972.4226525289363062000.1534577120716.8413; PHPSESSID=v97oog9gp70o9shp06sspgshb3; monitor_count=168',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.fumijituan.com/index/tomb/azset.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.fumijituan.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '56',
+  'connection' => 'close',
+  'host' => 'www.fumijituan.com',
+)
+[ info ] [ PARAM ] array (
+  'cem_id' => '0',
+  'cem_area_id' => '0',
+  'cem_row_id' => '0',
+  'starttime' => '2018-08-14',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'home',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Tomb->select_azset_list[ D:\phpstudy\PHPTutorial\WWW\md\application\index\controller\Tomb.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015625s ] mysql:dbname=md;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth` [ RunTime:0.046875s ]
+[ sql ] [ SQL ] SELECT * FROM `auth` WHERE  `client_path` = 'Tomb/select_azset_list' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `a`.`id`,`a`.`pid`,`a`.`name`,`a`.`client_path` FROM `auth` `a` RIGHT JOIN `otm` `b` ON `a`.`id`=`b`.`mk` WHERE  `a`.`is_menu` = 1  AND `a`.`pid` = 0  AND `b`.`ok` = 1  AND `b`.`type` = 1 ORDER BY `a`.`order_by_id`  desc,`a`.`id`  asc [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `auth` WHERE  `client_path` = 'Tomb/select_azset_list' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `a`.`id`,`a`.`pid`,`a`.`name`,`a`.`client_path` FROM `auth` `a` RIGHT JOIN `otm` `b` ON `a`.`id`=`b`.`mk` WHERE  `a`.`is_menu` = 1  AND `a`.`pid` IS NULL  AND `b`.`ok` = 1  AND `b`.`type` = 1 ORDER BY `a`.`order_by_id`  desc,`a`.`id`  asc [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `come_channel` [ RunTime:0.031250s ]
+[ sql ] [ SQL ] SELECT `id`,`sn`,`desc`,`title`,`pid`,`ppid` FROM `come_channel` WHERE  `pid` = 0 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id`,`sn`,`desc`,`title`,`pid`,`ppid` FROM `come_channel` WHERE  `pid` > 0  AND `ppid` = 0 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id`,`sn`,`desc`,`title`,`pid`,`ppid` FROM `come_channel` WHERE  `ppid` > 0 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cem` [ RunTime:0.031250s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`desc`,`thumb` FROM `cem` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tpl` [ RunTime:0.046875s ]
+[ sql ] [ SQL ] SELECT * FROM `tpl` WHERE  `type` = 2 ORDER BY `order_by_id`  DESC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tpl` WHERE  `type` = 3 ORDER BY `order_by_id`  DESC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tpl` WHERE  `type` = 4 ORDER BY `order_by_id`  DESC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tpl` WHERE  `type` = 9 ORDER BY `order_by_id`  DESC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tpl` WHERE  `type` = 13 ORDER BY `order_by_id`  DESC [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT * FROM `tpl` WHERE  `type` = 5 ORDER BY `order_by_id`  DESC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tpl` WHERE  `type` = 6 ORDER BY `order_by_id`  DESC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `staff` [ RunTime:0.031250s ]
+[ sql ] [ SQL ] SELECT * FROM `staff` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dead` [ RunTime:0.046875s ]
+[ sql ] [ SQL ] SELECT * FROM `dead` WHERE  `gltime` BETWEEN 1534176000 AND 1534262400 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cem_info` [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT `long_title`,`znum`,`beizhu` FROM `cem_info` WHERE  `id` = 270 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `long_title`,`znum`,`beizhu` FROM `cem_info` WHERE  `id` = 264 LIMIT 1 [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT `long_title`,`znum`,`beizhu` FROM `cem_info` WHERE  `id` = 276 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `long_title`,`znum`,`beizhu` FROM `cem_info` WHERE  `id` = 623 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `long_title`,`znum`,`beizhu` FROM `cem_info` WHERE  `id` = 688 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `long_title`,`znum`,`beizhu` FROM `cem_info` WHERE  `id` = 687 LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-08-19T15:06:13+08:00 ] 114.113.119.109 58.64.185.33 GET /index/tomb/sale.html
+[ info ] www.fumijituan.com/index/tomb/sale.html [运行时间：0.109375s][吞吐率：9.14req/s] [内存消耗：2,057.30kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpstudy\PHPTutorial\WWW\md\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'tomb',
+    2 => 'sale',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'cache-control' => 'max-age=259200',
+  'accept-charset' => 'iso-8859-1,*,utf-8',
+  'accept-encoding' => 'gzip,deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'host' => 'www.fumijituan.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'home',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-19T15:06:13+08:00 ] 114.113.119.109 58.64.185.33 GET /index/p/login.html
+[ info ] www.fumijituan.com/index/p/login.html [运行时间：0.046875s][吞吐率：21.33req/s] [内存消耗：1,048.11kb] [文件加载：35]
+[ info ] [ LANG ] D:\phpstudy\PHPTutorial\WWW\md\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'p',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'cache-control' => 'max-age=259200',
+  'cookie' => 'PHPSESSID=s2f20n829bp2kp5gjct85brsa1',
+  'accept-charset' => 'iso-8859-1,*,utf-8',
+  'accept-encoding' => 'gzip,deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'host' => 'www.fumijituan.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\P->login[ D:\phpstudy\PHPTutorial\WWW\md\application\index\controller\P.php ]
+[ info ] [ VIEW ] D:\phpstudy\PHPTutorial\WWW\md\public/../application/index\view\p\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-19T15:06:32+08:00 ] 114.113.119.109 101.199.112.49 GET /
+[ info ] www.fumijituan.com/ [运行时间：0.078125s][吞吐率：12.80req/s] [内存消耗：1,781.62kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpstudy\PHPTutorial\WWW\md\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-charset' => 'iso-8859-1,*,utf-8',
+  'accept-encoding' => 'gzip,deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 5.0.2; zh-CN; Redmi Note 3 Build/LRX22G) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 OPR/11.2.3.102637 Mobile Safari/537.36',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'connection' => 'close',
+  'host' => 'www.fumijituan.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'home',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-19T15:06:33+08:00 ] 114.113.119.109 101.199.112.49 GET /index/p/login.html
+[ info ] www.fumijituan.com/index/p/login.html [运行时间：0.062500s][吞吐率：16.00req/s] [内存消耗：1,048.39kb] [文件加载：35]
+[ info ] [ LANG ] D:\phpstudy\PHPTutorial\WWW\md\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'p',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=ff39pv812id4ckmrck0i5i0v17',
+  'accept-charset' => 'iso-8859-1,*,utf-8',
+  'accept-encoding' => 'gzip,deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 5.0.2; zh-CN; Redmi Note 3 Build/LRX22G) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 OPR/11.2.3.102637 Mobile Safari/537.36',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'connection' => 'close',
+  'host' => 'www.fumijituan.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\P->login[ D:\phpstudy\PHPTutorial\WWW\md\application\index\controller\P.php ]
+[ info ] [ VIEW ] D:\phpstudy\PHPTutorial\WWW\md\public/../application/index\view\p\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-19T15:08:24+08:00 ] 114.113.119.109 101.199.108.119 GET /index/tomb/toset.html
+[ info ] www.fumijituan.com/index/tomb/toset.html [运行时间：0.093750s][吞吐率：10.67req/s] [内存消耗：2,056.94kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpstudy\PHPTutorial\WWW\md\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'tomb',
+    2 => 'toset',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-charset' => 'iso-8859-1,*,utf-8',
+  'accept-encoding' => 'gzip,deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'connection' => 'close',
+  'host' => 'www.fumijituan.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'home',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-19T15:08:24+08:00 ] 114.113.119.109 101.199.108.119 GET /index/p/login.html
+[ info ] www.fumijituan.com/index/p/login.html [运行时间：0.063476s][吞吐率：15.75req/s] [内存消耗：1,047.70kb] [文件加载：35]
+[ info ] [ LANG ] D:\phpstudy\PHPTutorial\WWW\md\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'p',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=5tqrj4tgujslt98ksgl7bc4u02',
+  'accept-charset' => 'iso-8859-1,*,utf-8',
+  'accept-encoding' => 'gzip,deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'connection' => 'close',
+  'host' => 'www.fumijituan.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\P->login[ D:\phpstudy\PHPTutorial\WWW\md\application\index\controller\P.php ]
+[ info ] [ VIEW ] D:\phpstudy\PHPTutorial\WWW\md\public/../application/index\view\p\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-19T15:12:15+08:00 ] 114.113.119.109 101.199.110.112 GET /index/statistic/come.html
+[ info ] www.fumijituan.com/index/statistic/come.html [运行时间：0.093750s][吞吐率：10.67req/s] [内存消耗：1,875.35kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpstudy\PHPTutorial\WWW\md\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'statistic',
+    2 => 'come',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-charset' => 'iso-8859-1,*,utf-8',
+  'accept-encoding' => 'gzip,deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'connection' => 'close',
+  'host' => 'www.fumijituan.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'home',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-19T15:12:15+08:00 ] 114.113.119.109 101.199.110.112 GET /index/p/login.html
+[ info ] www.fumijituan.com/index/p/login.html [运行时间：0.046875s][吞吐率：21.33req/s] [内存消耗：1,047.70kb] [文件加载：35]
+[ info ] [ LANG ] D:\phpstudy\PHPTutorial\WWW\md\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'p',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=5vam557qrvhg2clo6kdslfd527',
+  'accept-charset' => 'iso-8859-1,*,utf-8',
+  'accept-encoding' => 'gzip,deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'connection' => 'close',
+  'host' => 'www.fumijituan.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\P->login[ D:\phpstudy\PHPTutorial\WWW\md\application\index\controller\P.php ]
+[ info ] [ VIEW ] D:\phpstudy\PHPTutorial\WWW\md\public/../application/index\view\p\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-19T15:14:08+08:00 ] 114.113.119.109 101.199.110.108 GET /index/Tomb/glprice/gtime/3.html
+[ info ] www.fumijituan.com/index/Tomb/glprice/gtime/3.html [运行时间：0.131835s][吞吐率：7.59req/s] [内存消耗：2,057.48kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpstudy\PHPTutorial\WWW\md\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Tomb',
+    2 => 'glprice',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-charset' => 'iso-8859-1,*,utf-8',
+  'accept-encoding' => 'gzip,deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'connection' => 'close',
+  'host' => 'www.fumijituan.com',
+)
+[ info ] [ PARAM ] array (
+  'gtime' => '3',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'home',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-19T15:14:08+08:00 ] 114.113.119.109 101.199.110.108 GET /index/p/login.html
+[ info ] www.fumijituan.com/index/p/login.html [运行时间：0.085938s][吞吐率：11.64req/s] [内存消耗：1,047.70kb] [文件加载：35]
+[ info ] [ LANG ] D:\phpstudy\PHPTutorial\WWW\md\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'p',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=0le9ehnu9bnp88194q41t1ug71',
+  'accept-charset' => 'iso-8859-1,*,utf-8',
+  'accept-encoding' => 'gzip,deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'connection' => 'close',
+  'host' => 'www.fumijituan.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\P->login[ D:\phpstudy\PHPTutorial\WWW\md\application\index\controller\P.php ]
+[ info ] [ VIEW ] D:\phpstudy\PHPTutorial\WWW\md\public/../application/index\view\p\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-19T15:14:34+08:00 ] 114.113.119.109 220.181.132.194 GET /index/cemetery/index.html
+[ info ] www.fumijituan.com/index/cemetery/index.html [运行时间：0.078125s][吞吐率：12.80req/s] [内存消耗：1,788.88kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpstudy\PHPTutorial\WWW\md\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'cemetery',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-charset' => 'iso-8859-1,*,utf-8',
+  'accept-encoding' => 'gzip,deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'connection' => 'close',
+  'host' => 'www.fumijituan.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'home',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-19T15:14:34+08:00 ] 114.113.119.109 220.181.132.194 GET /index/p/login.html
+[ info ] www.fumijituan.com/index/p/login.html [运行时间：0.046875s][吞吐率：21.33req/s] [内存消耗：1,047.70kb] [文件加载：35]
+[ info ] [ LANG ] D:\phpstudy\PHPTutorial\WWW\md\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'p',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=daptbqb59ib0l20t3ko0h6t4j7',
+  'accept-charset' => 'iso-8859-1,*,utf-8',
+  'accept-encoding' => 'gzip,deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'connection' => 'close',
+  'host' => 'www.fumijituan.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\P->login[ D:\phpstudy\PHPTutorial\WWW\md\application\index\controller\P.php ]
+[ info ] [ VIEW ] D:\phpstudy\PHPTutorial\WWW\md\public/../application/index\view\p\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-19T15:15:21+08:00 ] 114.113.119.109 101.199.110.110 GET /index/Tomb/glprice/gtime/4.html
+[ info ] www.fumijituan.com/index/Tomb/glprice/gtime/4.html [运行时间：0.093750s][吞吐率：10.67req/s] [内存消耗：2,057.48kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpstudy\PHPTutorial\WWW\md\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Tomb',
+    2 => 'glprice',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-charset' => 'iso-8859-1,*,utf-8',
+  'accept-encoding' => 'gzip,deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'connection' => 'close',
+  'host' => 'www.fumijituan.com',
+)
+[ info ] [ PARAM ] array (
+  'gtime' => '4',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'home',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-19T15:15:21+08:00 ] 114.113.119.109 101.199.110.110 GET /index/p/login.html
+[ info ] www.fumijituan.com/index/p/login.html [运行时间：0.062500s][吞吐率：16.00req/s] [内存消耗：1,047.70kb] [文件加载：35]
+[ info ] [ LANG ] D:\phpstudy\PHPTutorial\WWW\md\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'p',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=j7u7jc5u4sg9i03klfc10c42p6',
+  'accept-charset' => 'iso-8859-1,*,utf-8',
+  'accept-encoding' => 'gzip,deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'connection' => 'close',
+  'host' => 'www.fumijituan.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\P->login[ D:\phpstudy\PHPTutorial\WWW\md\application\index\controller\P.php ]
+[ info ] [ VIEW ] D:\phpstudy\PHPTutorial\WWW\md\public/../application/index\view\p\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-19T15:16:32+08:00 ] 114.113.119.109 101.199.110.117 GET /index/tomb/glprice.html
+[ info ] www.fumijituan.com/index/tomb/glprice.html [运行时间：0.078125s][吞吐率：12.80req/s] [内存消耗：2,056.91kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpstudy\PHPTutorial\WWW\md\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'tomb',
+    2 => 'glprice',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.fumijituan.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'home',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-19T15:16:33+08:00 ] 114.113.119.109 101.199.110.117 GET /index/statistic/glist.html
+[ info ] www.fumijituan.com/index/statistic/glist.html [运行时间：0.093750s][吞吐率：10.67req/s] [内存消耗：1,875.32kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpstudy\PHPTutorial\WWW\md\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'statistic',
+    2 => 'glist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.fumijituan.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'home',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-19T15:16:36+08:00 ] 114.113.119.109 58.64.185.202 GET /index/tomb/glprice.html
+[ info ] www.fumijituan.com/index/tomb/glprice.html [运行时间：0.078125s][吞吐率：12.80req/s] [内存消耗：2,057.31kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpstudy\PHPTutorial\WWW\md\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'tomb',
+    2 => 'glprice',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'cache-control' => 'max-age=259200',
+  'accept-charset' => 'iso-8859-1,*,utf-8',
+  'accept-encoding' => 'gzip,deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'host' => 'www.fumijituan.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'home',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-19T15:16:36+08:00 ] 114.113.119.109 58.64.185.202 GET /index/p/login.html
+[ info ] www.fumijituan.com/index/p/login.html [运行时间：0.050781s][吞吐率：19.69req/s] [内存消耗：1,048.11kb] [文件加载：35]
+[ info ] [ LANG ] D:\phpstudy\PHPTutorial\WWW\md\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'p',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'cache-control' => 'max-age=259200',
+  'cookie' => 'PHPSESSID=d8blpsh3ig3ns3u77afmtimh41',
+  'accept-charset' => 'iso-8859-1,*,utf-8',
+  'accept-encoding' => 'gzip,deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'host' => 'www.fumijituan.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\P->login[ D:\phpstudy\PHPTutorial\WWW\md\application\index\controller\P.php ]
+[ info ] [ VIEW ] D:\phpstudy\PHPTutorial\WWW\md\public/../application/index\view\p\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-19T15:16:43+08:00 ] 114.113.119.109 210.209.70.41 GET /index/statistic/glist.html
+[ info ] www.fumijituan.com/index/statistic/glist.html [运行时间：0.093750s][吞吐率：10.67req/s] [内存消耗：1,875.73kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpstudy\PHPTutorial\WWW\md\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'statistic',
+    2 => 'glist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'cache-control' => 'max-age=259200',
+  'accept-charset' => 'iso-8859-1,*,utf-8',
+  'accept-encoding' => 'gzip,deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'host' => 'www.fumijituan.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'home',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-19T15:16:43+08:00 ] 114.113.119.109 210.209.70.41 GET /index/p/login.html
+[ info ] www.fumijituan.com/index/p/login.html [运行时间：0.062500s][吞吐率：16.00req/s] [内存消耗：1,048.11kb] [文件加载：35]
+[ info ] [ LANG ] D:\phpstudy\PHPTutorial\WWW\md\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'p',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'cache-control' => 'max-age=259200',
+  'cookie' => 'PHPSESSID=jmmta3sjrujn36p5ntuspe2e05',
+  'accept-charset' => 'iso-8859-1,*,utf-8',
+  'accept-encoding' => 'gzip,deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'host' => 'www.fumijituan.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\P->login[ D:\phpstudy\PHPTutorial\WWW\md\application\index\controller\P.php ]
+[ info ] [ VIEW ] D:\phpstudy\PHPTutorial\WWW\md\public/../application/index\view\p\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
